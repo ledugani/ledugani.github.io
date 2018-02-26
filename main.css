@@ -15,10 +15,10 @@
   
   a {
     text-decoration: none;
-    color: #0499ff;
+    color: #0399ff;
   }
   a:hover {
-    color: #6633ff;
+    color: #6633ee;
   }
   
   /* Section Styles */
@@ -67,26 +67,45 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 3px solid white;
+    border: 3px solid tomato;
     transition: all .5s;
   }
+
   header .profile-image:hover {
     transform: scale(1.2) rotate(5deg);
   }
+
+  .current {
+    color: gainsboro;
+  }
+
+  #pipe {
+    color: #0399ff;
+  }
+
+  .profile-image {
+    margin-top: 0px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all .5s;
+  }
+
   .tag {
-    background-color: #efefef;
-    color: black;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     padding: 10px;
     border-radius: 5px;
     display: table;
     margin: 10px auto;
   } 
   .location {
-    background-color: #222;
     color: yellow;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   }
   .card {
-    margin: 30px;
+    margin: 15px;
     padding: 20px 40px 40px;
     max-width: 500px;
     text-align: left;
@@ -95,7 +114,7 @@
     border-radius: 6px;
   }
   .card:hover {
-    border-color: #ff99ff;
+    border-color: #0399ff;
   }
   
   ul.skills {
@@ -106,7 +125,7 @@
   .skills li {
     border-radius: 6px;
     display: inline-block;
-    background: #ff9904;
+    background: tomato;
     color: white;
     padding: 5px 10px;
     margin: 2px;
@@ -203,5 +222,4 @@
     }
   
   }
-  
   

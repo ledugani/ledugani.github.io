@@ -78,6 +78,14 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 
+#pipe {
+  color: #0399ff;
+}
+
+.current {
+  color: gainsboro;
+}
+
 h4 {
   margin-left: 10px;
 }
