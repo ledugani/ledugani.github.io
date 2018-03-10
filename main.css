@@ -51,6 +51,7 @@
   }
   .nav a {
     transition: all .5s;
+    color: #0399ff;
   }
   .nav a:hover {
     color: white
@@ -79,11 +80,15 @@
     transform: scale(1.2) rotate(5deg);
   }
 
-  #pipe {
+  #pipe, .card li a {
     color: #0399ff;
   }
 
-  .current {
+  .card li a:hover {
+    color: #6633ee;
+  }
+
+  li a #current {
     color: gainsboro;
   }
   
@@ -238,6 +243,7 @@
   
     .nav {
       max-width: 1200px;
+      color: #0399ff;
     }
   
     .nav .name {
