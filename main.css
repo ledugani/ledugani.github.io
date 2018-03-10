@@ -20,6 +20,10 @@
   a:hover {
     color: #6633ee;
   }
+
+  li a {
+    color: white;
+  }
   
   /* Section Styles */
   
@@ -75,11 +79,28 @@
     transform: scale(1.2) rotate(5deg);
   }
 
+  #pipe {
+    color: #0399ff;
+  }
+
   .current {
     color: gainsboro;
   }
+  
+  h4 {
+    margin-left: 10px;
+  }
 
-  #pipe {
+  #history-title {
+    text-decoration: underline;
+  }
+
+  .black {
+    color: black;
+    font-size: 15px;
+  }
+  
+  .company {
     color: #0399ff;
   }
 
@@ -105,6 +126,7 @@
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   }
   .card {
+    width: 90%;
     margin: 15px;
     padding: 20px 40px 40px;
     max-width: 500px;
@@ -116,7 +138,7 @@
   .card:hover {
     border-color: #0399ff;
   }
-  
+
   ul.skills {
     padding: 0;
     text-align: center;
@@ -132,6 +154,23 @@
   }
   
   .skills li:nth-child(odd) {
+    background: #0399ff;
+  }
+
+  ul.portfolio {
+    padding: 0;
+    text-align: center;
+  }
+  
+  .portfolio li {
+    border-radius: 6px;
+    background: tomato;
+    color: white;
+    padding: 5px 10px;
+    margin: 2px;
+  }
+  
+  .portfolio li:nth-child(odd) {
     background: #0399ff;
   }
   
