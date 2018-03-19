@@ -9,13 +9,13 @@ var blogs = [
       id: "blog2", 
       title: "JavaScript is great", 
       date: "02/23/2018", 
-      post: "Today was the first day of class and it was the BEST!!!!!!!"
+      post: "This week we were introduced to the wonders of JavaScript, which makes the web interactive and responsive! I didn't think I knew much JS or understood it at all, but after the first few challenges, I was feeling confident in my abilities. We only covered the basics (variables, arrays, and calling them), but I can safely say I am ready for more challenging "
     },
     {
       id: "blog3", 
       title: "JavaScript is terrible", 
       date: "03/4/2018", 
-      post: "Today was the first day of class and it was the BEST!!!!!!!"
+      post: "It was really difficult to grasp certain concepts in the beginning, but eventually (after lots and lots of practice), I was able to move through problems utilizing JavaScript's multitude of features and functions. More specifically, I had a really hard time conceptualizing the functionality of the forEach, map, and filter methods."
     }
 ];
 
