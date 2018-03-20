@@ -9,13 +9,13 @@ var blogs = [
       id: "blog2", 
       title: "JavaScript is great", 
       date: "02/23/2018", 
-      post: "This week we were introduced to the wonders of JavaScript, which makes the web interactive and responsive! I didn't think I knew much JS or understood it at all, but after the first few challenges, I was feeling confident in my abilities. We only covered the basics (variables, arrays, and calling them), but I can safely say I am ready for more challenging "
+      post: "This week we were introduced to the wonders of JavaScript, which makes the web interactive and responsive! I didn't think I knew much JS or understood it at all, but after the first few challenges, I was feeling confident in my abilities. We only covered the basics (variables, arrays, and calling them), but I can safely say I am ready for more challenging material over the next week or two. <br> We "
     },
     {
       id: "blog3", 
       title: "JavaScript is terrible", 
       date: "03/4/2018", 
-      post: "It was really difficult to grasp certain concepts in the beginning, but eventually (after lots and lots of practice), I was able to move through problems utilizing JavaScript's multitude of features and functions. More specifically, I had a really hard time conceptualizing the functionality of the forEach, map, and filter methods."
+      post: "This week, we covered iteration methods and using them to simplify code. We started off going over how everyone accomplished the challenges assigned from the previous week, which was eye opening just to see how many different ways you can accomplish a single task. Then, our instructor went over much simpler methods to use which accomplished the same tasks using a lot less code. At first, I was completely lost and confused about how any of it worked and this continued through the remainder of class. I went home feeling like I'd been pushed off the ledge into the murky depths of JS. After struggling all evening attempting to completely understand everything that had been presented, I decided to sleep on it and tackle it the next day. Praises to Treehouse and their amazingly helpful videos. I covered iteration methods and callback functions through Treehouses courses and practiced them repeatedly. It was really difficult to grasp certain concepts in the beginning, but eventually (after lots and lots of practice), I was able to move through problems utilizing JavaScript's multitude of methods and functions. More specifically, I had a really hard time conceptualizing the functionality of the forEach, map, and filter methods, which seemed counterintuitive initially. As I continued to use them, I found the more I wrote the code, the more it made sense. I will definitely remember that from here on out."
     }
 ];
 
