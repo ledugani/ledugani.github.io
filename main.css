@@ -17,6 +17,7 @@
     text-decoration: none;
     color: #0399ff;
   }
+  
   a:hover {
     color: #6633ee;
   }
@@ -35,6 +36,7 @@
     position: fixed;
     text-align: center;
   }
+
   .nav {
     display: flex;
     justify-content: space-around;
@@ -43,16 +45,20 @@
     margin: 0 auto;
     padding: 0;
   }
+
   .nav .name {
     display: none;
   }
+
   .nav li {
     padding: 5px 10px 10px 10px;
   }
+
   .nav a {
     transition: all .5s;
     color: #0399ff;
   }
+
   .nav a:hover {
     color: white
   }
@@ -64,9 +70,11 @@
     overflow: hidden;
     padding-top: 60px;
   }
+
   header {
     line-height: 1.5;
   }
+
   header .profile-image {
     margin-top: 50px;
     width: 150px;
