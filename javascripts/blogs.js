@@ -28,6 +28,12 @@ var blogs = [
     title: "XHR is the devil", 
     date: "03/27/2018", 
     post: "So we 'learned' XHR this week. Not that I'm salty about it or anything... I just don't fully get it yet. But I'm going to. I guess I understand what it does conceptually, I just don't understand the syntax. Apparently it's okay for us to feel uncomfortable with the syntax, but it'd be nice to get it. And I really want to utilize this newfound skill to the fullest because it seems very handy. I'm glad we're starting to use 'databases' for content, though, because storing data in the js file itself has felt very silly and unnecessary. I'm thinking this might be the first step towards using databases instead of inline storage. Hopefully in the weeks to come, I'll have a better understanding of how it works. Fingers crossed. "
+  },
+  {
+    id: "blog6", 
+    title: "Bootstrap and Superheroes", 
+    date: "04/03/2018", 
+    post: "Bootstrap was this week's topic of discussion and it was underwhelming. Initially, we spent a lot of time walking through the documentation and answering any questions anyone had about anything. It was very slow. This was how it went for most of the class, then, when we had about an hour left, we dove into a new JavaScript concept. And it went by very quickly. I kind of got lost in all the rushing and was really done by the time it was time to leave. Bootstrap was great to learn because I already had an idea of how it worked. Knowing that people have built a framework that has worked for thousands of other developers is comforting and having access to the catalogue of documentation for it makes it even better. I think Bootstrap is a great utility for throwing up a quick website in a pinch. But it also makes it possible to create beautifully designed sites as well."
   }
 ];
 
