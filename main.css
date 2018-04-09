@@ -238,6 +238,12 @@
   .clearfix {
     clear: both;
   }
+
+  .blog-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   
   /* Styles for larger screens */
   @media screen and (min-width: 720px) {
