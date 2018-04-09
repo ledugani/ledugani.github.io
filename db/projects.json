@@ -1,0 +1,52 @@
+{
+    "projects": [
+    {
+      "image": "http://placeimg.com/500/500/animals",
+      "id": "project1", 
+      "title": "Cool Project", 
+      "imageUrl": "http://gotoflashgames.com/files/file/033.jpg", 
+      "description": "This is the best project",
+      "githubUrl": "https://github.com/nss-evening-cohort-7/jsArrays"
+      },
+    {
+      "image": "http://placeimg.com/500/500/animals",
+      "id": "project2", 
+      "title": "Awesome Project", 
+      "imageUrl": "http://gotoflashgames.com/files/file/033.jpg", 
+      "description": "This is the second best project",
+      "githubUrl": "https://github.com/nss-evening-cohort-7/jsArrays"
+      },
+    {
+      "image": "http://placeimg.com/500/500/animals",
+      "id": "project3", 
+      "title": "Great Project", 
+      "imageUrl": "http://gotoflashgames.com/files/file/033.jpg", 
+      "description": "This is the third best project",
+      "githubUrl": "https://github.com/nss-evening-cohort-7/jsArrays"
+      },
+    {
+      "image": "http://placeimg.com/500/500/animals",
+      "id": "project4", 
+      "title": "Super Project", 
+      "imageUrl": "http://gotoflashgames.com/files/file/033.jpg", 
+      "description": "This is the fourth best project",
+      "githubUrl": "https://github.com/nss-evening-cohort-7/jsArrays"
+      },
+    {
+      "image": "http://placeimg.com/500/500/animals",
+      "id": "project5", 
+      "title": "Sweet Project", 
+      "imageUrl": "http://gotoflashgames.com/files/file/033.jpg", 
+      "description": "This is the fifth best project",
+      "githubUrl": "https://github.com/nss-evening-cohort-7/jsArrays"
+      },
+    {
+      "image": "http://placeimg.com/500/500/animals",
+      "id": "project6", 
+      "title": "Rad Project", 
+      "imageUrl": "http://gotoflashgames.com/files/file/033.jpg", 
+      "description": "This is the sixth best project",
+      "githubUrl": "https://github.com/nss-evening-cohort-7/jsArrays"
+    }
+  ]
+}
