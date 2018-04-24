@@ -41,6 +41,12 @@
         "title": "Task Runners and Broswerify",
         "date": "04/09/2018",
         "post": "This week's focus was on task runners, which apparently help programmers accomplish monotonous tasks by running them in the background. I still don't claim to fully understand everything about them, but I'll be doing more research in the next few days so I do. More specifically, though, we focused on Browserify and Grunt, two useful task runners if you like being policed by programs while you write code. Sounds fun right? Well, it's actually pretty cool because setting these two up in unison breeds an ideal file structure for collaborating with teams as well as an enhanced security mechanism. Broswerify allows us to have multiple files that all run through the same place, without the inherent vulnerabilities that are associated with a singular javascript file. It also drastically enhances productivity in regards to working with a team of developers. Instead of all working through different functions in the same file, we can have multiple files with each being dedicated to a specific task. This speeds up production time and decreases the number of conflicts that can occur. All in all, I think I will be seeing a lot more of these in the weeks to come."
+        },
+        {
+        "id": "blog8",
+        "title": "Decoding Convoluted Files and Functions",
+        "date": "04/17/2018",
+        "post": ""
         }
     ]
 }
