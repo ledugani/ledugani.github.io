@@ -49,10 +49,16 @@
         "post": "After stepping up our game with task runners, this week's challenge was deciphering in-class projects in order to use the material covered in class. Mapping these files and functions has proven to be a beast in and of itself. Between untouched folders, multiple javascript files, and functions spread across files by functionality, it has been an overwhelming learning process. I've found that it no longer works to use the aforementioned review of inclass projects to get work done. Instead, I'm having to thoroughly review notes, start from square one, and move step by step through the project. Luckily, each one involves the same file structure, the only difference being the amount of javascript files and which file does what. I've definitely had to backtrack more than a few times to reevaluate what work has been done where. All in all, I think this process will become more intuitive the more I do it."
         },
         {
-        "id": "blog8",
+        "id": "blog9",
         "title": "Spider-Man and Chatty Folks",
         "date": "04/24/2018",
         "post": "So this week, the instructors split us up into groups based on perceived skill level. My group was one of the three groups in our class assigned with creating the framework for a basic message board. Our team took the liberty of assigning ourselves with a Spider-Man themed message board, while maintaining the brand we were assigned - pogonophobia. Luckily this time, the file structure was already prepared for us, so the real planning aspect consisted of what functions were to be assigned to what files and who would be working with each one. This, in turn, granted us a much smoother workflow and allowed us to be more creative with the design and UX of the site. <br> Given the ease of the planning section, working with this group has proven to be a much better experience than that of the past two groups; maybe because we're all on the same 'perceived' skill level, but also maybe because we all had an idea of how the group work should go. We've been working together on group projects and individual projects and the work we're doing seems quite a bit more productive. At the end of the day, I am enjoying the way group work is becoming less monotonous and more productive."
+        },
+        {
+        "id": "blog10",
+        "title": "jQuery and Its Library of Fantastic Spectacles",
+        "date": "05/01/18",
+        "post": "So... Why have we not been using jQuery thus far?? I know, I know, we need to know the basics of JavaScript before moving up to more advanced libraries, but I am blown away by the power and simplicity of jQuery's extensive library. I definitely will be using this from here on out. But now that we've gotten to this point, I have a feeling we're going to move on very quickly. That which comes easy seems to go just as fast. That's alright, though, because I think this will make accomplishing specific tasks much easier for future assignments. <br> Shout out to John Resig for making coding 10x easier for generations to come. We'll see where we go from here."
         }
     ]
 }
