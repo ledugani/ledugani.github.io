@@ -56,9 +56,15 @@
         },
         {
         "id": "blog10",
-        "title": "jQuery and Its Library of Fantastic Spectacles",
+        "title": "jQuery and Its Library of Fantastic Utilities",
         "date": "05/01/18",
-        "post": "So... Why have we not been using jQuery thus far?? I know, I know, we need to know the basics of JavaScript before moving up to more advanced libraries, but I am blown away by the power and simplicity of jQuery's extensive library. I definitely will be using this from here on out. But now that we've gotten to this point, I have a feeling we're going to move on very quickly. That which comes easy seems to go just as fast. That's alright, though, because I think this will make accomplishing specific tasks much easier for future assignments. <br> Shout out to John Resig for making coding 10x easier for generations to come. We'll see where we go from here."
+        "post": "So... Why have we not been using jQuery thus far?? I know, I know, we need to know the basics of JavaScript before moving up to more advanced libraries, but I am blown away by the power and simplicity of jQuery's extensive library. I definitely will be using this from here on out. But now that we've gotten to this point, I have a feeling we're going to move on very quickly. That which comes easy seems to go just as fast. That's alright, though, because I think this will make accomplishing specific tasks much easier for future assignments. <br> Shout out to John Resig for making coding 10x easier for generations to come. We'll see where we go from here. I'd like to spend some more time delving into the jQuery docs to see what awesome stuff is made easily possible through the library, but I'm willing to bet we're going to move in a new direction next week. Regardless, I will continue to research the libraries and try to find new ways to accomplish tasks with it."
+        },
+        {
+        "id": "blog11",
+        "title": "Promises and How to Break Them",
+        "date": "05/15/18",
+        "post": "This week's topic of focus was Promises and let me just tell you I was completely lost when the instructors explained them. By the end of Tuesday, I felt like I had just taken a class in Latin. I understand the concept, but the syntax was very foreign. As far as I can tell, this basically just replaces the XHR calls we've been making in previous projects. And we only just learned how to do them in jQuery, so things seem to be moving rather quickly, which means I should probably pick up my pace. <br> I've only broken them a handful of times so far, but it looks like I'm going to be needing some practice writing them out from scratch. "
         }
     ]
 }
