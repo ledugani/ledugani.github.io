@@ -65,6 +65,12 @@
         "title": "Promises and How to Break Them",
         "date": "05/15/18",
         "post": "This week's topic of focus was Promises and let me just tell you I was completely lost when the instructors explained them. By the end of Tuesday, I felt like I had just taken a class in Latin. I understand the concept, but the syntax was very foreign. As far as I can tell, this basically just replaces the XHR calls we've been making in previous projects. And we only just learned how to do them in jQuery, so things seem to be moving rather quickly, which means I should probably pick up my pace. <br> I've only broken them a handful of times so far, but it looks like I'm going to be needing some practice writing them out from scratch. "
+        },
+        {
+        "id": "blog12",
+        "title": "How APIs Saved Christmas",
+        "date": "05/22/18",
+        "post": "So I've used APIs before with WordPress before and they were not the most fun to use (they require plugins and extensive knowledge of the documentation in order to fully utilize it). Now, I realize that reading of documentation is necessary to use anything to its fullest extent, but at least using the API in your code allows you to pick and choose exactly what you need in order to display information how you want. The downfalls of just using a plugin start with the lack of control you (as a developer) have when designing the site and end with providing false information - and everything in between. Needless to say, using API's the way they were meant to be used - accessing the data with actual code - is a much more pleasant experience all around. <br> After covering all the material we need in order to utilize APIs during class, something clicked for me with the previous assignments. I found myself writing Promises and jQuery methods properly, which felt great considering my complete lack of understanding during last week's lesson. But I'm glad it has finally come to start making sense!"
         }
     ]
 }
