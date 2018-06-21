@@ -74,9 +74,15 @@
         },
         {
         "id": "blog13",
+        "title": "Firebase and Me",
+        "date": "05/29/18",
+        "post": "Initially, I figured Firebase configurations would be extremely difficult, but to my surprise, they have turned out to be only very difficult! Luckily, though, our movie history app being created in class has only utilized Firebase with the plainest of JS. So it has been much more intuitive than it could have been. My only concern with Firebase is the limitations it has. After asking the instructor, she had mentioned it has a LOT of limitations (especially when only using the free version)so that means I'll need to do some research if I intend to use it for some serious applications, but I suppose I shouldn't concern myself with such lofty goals as of yet. I'm sure that, like all the previous lessons and obstacles I've tackled, understanding Firebase will come with time spent working with it. <br> All things considered, I found it really cool that Google would host such a useful utility for developers. I mean, with the project-specific databases for storage of user info, credentials, and other information, it leaves the web dev community with less backend work to worry about and allows them to focus solely on the frontend design and application. So many thanks, Google!"
+        },
+        {
+        "id": "blog14",
         "title": "Firebase and You",
         "date": "05/29/18",
-        "post": "Initially, I figured user authentication and configurations would be extremely difficult, but to my surprise, they have turned out to be only very difficult! Luckily, though, our movie history app being created in class has only utilized Firebase with the plainest of JS. So it has been much more intuitive than it could have been. My only concern with Firebase is the limitations it has. After asking the instructor, she had mentioned it has a LOT of limitations (especially when only using the free version)so that means I'll need to do some research if I intend to use it for some serious applications, but I suppose I shouldn't concern myself with such lofty goals as of yet. I'm sure that, like all the previous lessons and obstacles I've tackled, understanding Firebase will come with time spent working with it. <br> All things considered, I found it really cool that Google would host such a useful utility for developers. I mean, with the project-specific databases for storage of user info, credentials, and other information, it leaves the web dev community with less backend work to worry about and allows them to focus solely on the frontend design and application. So many thanks, Google!"
+        "post": "This week we further expounded upon "
         }
     ]
 }
