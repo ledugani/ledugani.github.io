@@ -9,7 +9,7 @@ const getConfig = () => {
   return fireBaseConfig;
 };
 
-const getAllBlogs = () => {
+const viewAllBlogs = () => {
   return new Promise((resolve, reject) => {
     const allBlogsArray = [];
     $.ajax({
@@ -34,5 +34,5 @@ const getAllBlogs = () => {
 module.exports = {
   setConfig,
   getConfig,
-  getAllBlogs,
+  viewAllBlogs,
 };

@@ -17,8 +17,8 @@ const retrieveKeys = () => {
     .then((results) => {
       firebaseApi.setConfig(results);
       firebase.initializeApp(results);
-      firebase
-        .auth();
+      // firebase
+      //   .auth();
     })
     .catch((errrrror) => {
       console.error('could not retrieve keys', errrrror);
