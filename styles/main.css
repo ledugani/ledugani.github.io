@@ -1,8 +1,8 @@
 /* Global Layout Set-up */
-* { 
+* {
     box-sizing: border-box;
   }
-    
+
   body {
     margin: 0;
     padding: 0;
@@ -12,12 +12,12 @@
     background: #f7f5f0;
   }
   /* Link Styles */
-  
+
   a {
     text-decoration: none;
     color: #0399ff;
   }
-  
+
   a:hover {
     color: #6633ee;
   }
@@ -25,9 +25,9 @@
   li a {
     color: white;
   }
-  
+
   /* Section Styles */
-  
+
   .main-nav {
     width: 100%;
     background: black;
@@ -62,10 +62,10 @@
   .nav a:hover {
     color: white
   }
-  
+
   header {
     text-align: center;
-    background: url('img/CITYSCAPE-94.png') no-repeat top center ;
+    background: url('/img/CITYSCAPE-94.png') no-repeat top center;
     background-size: cover;
     overflow: hidden;
     padding-top: 60px;
@@ -99,7 +99,7 @@
   li a #current {
     color: gainsboro;
   }
-  
+
   h4 {
     margin-left: 10px;
   }
@@ -112,7 +112,7 @@
     color: black;
     font-size: 15px;
   }
-  
+
   .company {
     color: #0399ff;
   }
@@ -133,7 +133,7 @@
     border-radius: 5px;
     display: table;
     margin: 10px auto;
-  } 
+  }
   .location {
     color: yellow;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
@@ -156,7 +156,7 @@
     padding: 0;
     text-align: center;
   }
-  
+
   .skills li {
     border-radius: 6px;
     display: inline-block;
@@ -165,7 +165,7 @@
     padding: 5px 10px;
     margin: 2px;
   }
-  
+
   .skills li:nth-child(odd) {
     background: #0399ff;
   }
@@ -174,7 +174,7 @@
     padding: 0;
     text-align: center;
   }
-  
+
   .portfolio li {
     border-radius: 6px;
     background: tomato;
@@ -186,33 +186,33 @@
   .portfolio li a {
     color: white;
   }
-  
+
   .portfolio li:nth-child(odd) {
     background: #0399ff;
   }
-  
+
   footer {
     width: 100%;
     min-height: 30px;
     padding: 20px 0 40px 20px;
   }
-  
+
   footer .copyright {
     top: -8px;
     margin: 10px auto 0 auto;
     font-size: .75em;
   }
-  
+
   footer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
-  
+
   footer ul li {
     display: inline-block;
   }
-  
+
   a.social {
     display: inline-block;
     text-indent: -9999px;
@@ -244,45 +244,45 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+
   /* Styles for larger screens */
   @media screen and (min-width: 720px) {
-    
+
     .flex {
         display: flex;
         max-width: 1200px;
         justify-content: space-around;
         margin: 0 auto;
     }
-  
+
     header {
       min-height: 450px;
     }
-  
+
     .nav {
       max-width: 1200px;
       color: #0399ff;
     }
-  
+
     .nav .name {
       display: block;
       margin-right: auto;
       color: white;
     }
-  
+
     main {
       padding-top: 50px;
     }
-  
+
     main p {
       line-height: 1.6em;
     }
-  
+
     footer {
       font-size: 1.3em;
       max-width: 1200px;
       margin: 40px auto;
     }
-  
+
   }
-  
+
