@@ -14,7 +14,7 @@ const getAllBlogs = () => {
     const allBlogsArray = [];
     $.ajax({
       method: 'GET',
-      url: 'https://personal-site-128be.firebaseio.com/blogs.json',
+      url: `https://${fireBaseConfig.databaseURL}.firebaseio.com/blogs.json`,
     })
       .done((allBlogsObj) => {
         if (allBlogsObj !== null) {
