@@ -1,4 +1,4 @@
-/* Global Layout Set-up
+/* Global Layout Set-up */
 * {
   box-sizing: border-box;
   font-family: Oswald;
@@ -15,7 +15,7 @@ body {
 
 /* Section Styles */
 
-/* #navbar {
+#navbar {
   background-color: transparent;
   background: transparent;
   border-color: transparent;
@@ -38,8 +38,17 @@ nav {
   color: papayawhip;
 }
 
-.menu-item {
+nav li {
   display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  color: paleturquoise;
 }
 
 .nav li {
@@ -61,6 +70,7 @@ header {
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
+  background-position: center top;
 }
 
 header {
