@@ -1,288 +1,235 @@
-/* Global Layout Set-up */
-* {
-    box-sizing: border-box;
-  }
+header {
+  text-align: center;
+  background: url("/img/CITYSCAPE-94.png") no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px; }
 
-  body {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    color: #222;
-    background: #f7f5f0;
-  }
-  /* Link Styles */
+header {
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; }
 
-  a {
-    text-decoration: none;
-    color: #0399ff;
-  }
+header .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid tomato;
+  transition: all .5s; }
 
-  a:hover {
-    color: #6633ee;
-  }
+header .profile-image:hover {
+  transform: scale(1.2) rotate(5deg); }
 
-  li a {
-    color: white;
-  }
-
-  /* Section Styles */
-
-  .main-nav {
-    width: 100%;
-    background: black;
-    min-height: 30px;
-    padding: 10px;
-    position: fixed;
-    text-align: center;
-  }
-
-  .nav {
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+  .flex {
     display: flex;
+    max-width: 1200px;
     justify-content: space-around;
-    font-weight: 700;
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-  }
+    margin: 0 auto; }
+  header {
+    min-height: 450px; } }
 
+ul.portfolio {
+  padding: 0;
+  text-align: center; }
+
+.portfolio li {
+  border-radius: 6px;
+  background: tomato;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px; }
+
+.portfolio li a {
+  color: white; }
+
+.portfolio li:nth-child(odd) {
+  background: #0399ff; }
+
+.card {
+  width: 90%;
+  margin: 15px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px; }
+
+.card:hover {
+  border-color: #0399ff; }
+
+.card li a {
+  color: #0399ff; }
+
+.card li a:hover {
+  color: #6633ee; }
+
+.blog-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+/* Skills */
+ul.skills {
+  padding: 0;
+  text-align: center; }
+
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: tomato;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px; }
+
+.skills li:nth-child(odd) {
+  background: #0399ff; }
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px; }
+
+footer .copyright {
+  top: -8px;
+  margin: 10px auto 0 auto;
+  font-size: .75em; }
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+footer ul li {
+  display: inline-block; }
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .5;
+  transition: all .25s; }
+
+a.twitter {
+  background-image: url(/img/twitter.svg); }
+
+a.linkedin {
+  background-image: url(/img/linkedin.svg); }
+
+a.github {
+  background-image: url(/img/github.svg); }
+
+a.social:hover {
+  opacity: 1; }
+
+/* navbar styles */
+#navbar {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+  letter-spacing: 2.5px; }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0; }
+
+#nav-mobile {
+  list-style-type: none; }
+
+#nav-mobile:hover {
+  color: papayawhip; }
+
+nav li {
+  display: inline; }
+
+li a {
+  text-decoration: none;
+  color: black;
+  padding: 15px 100px; }
+
+li a:hover {
+  color: paleturquoise; }
+
+.nav li {
+  padding: 5px 10px 10px 10px; }
+
+.nav a {
+  transition: all .5s;
+  color: #0399ff; }
+
+.nav a:hover {
+  color: white; }
+
+/* Section Styles */
+nav {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0; }
+
+.nav li {
+  padding: 5px 10px 10px 10px; }
+
+.nav a {
+  transition: all .5s;
+  color: tomato; }
+
+.nav a:hover {
+  color: white; }
+
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+  .nav {
+    max-width: 1200px;
+    color: #0399ff; }
   .nav .name {
-    display: none;
-  }
+    display: block;
+    margin-right: auto;
+    color: white; } }
 
-  .nav li {
-    padding: 5px 10px 10px 10px;
-  }
+* {
+  box-sizing: border-box;
+  font-family: Oswald, Arial, Helvetica, sans-serif; }
 
-  .nav a {
-    transition: all .5s;
-    color: #0399ff;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #222;
+  background: #f7f5f0; }
 
-  .nav a:hover {
-    color: white
-  }
-
-  header {
-    text-align: center;
-    background: url('/img/CITYSCAPE-94.png') no-repeat top center;
-    background-size: cover;
-    overflow: hidden;
-    padding-top: 60px;
-  }
-
-  header {
-    line-height: 1.5;
-  }
-
-  header .profile-image {
-    margin-top: 50px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 3px solid tomato;
-    transition: all .5s;
-  }
-
-  header .profile-image:hover {
-    transform: scale(1.2) rotate(5deg);
-  }
-
-  #pipe, .card li a {
-    color: #0399ff;
-  }
-
-  .card li a:hover {
-    color: #6633ee;
-  }
-
-  li a #current {
-    color: gainsboro;
-  }
-
-  h4 {
-    margin-left: 10px;
-  }
-
-  #history-title {
-    text-decoration: underline;
-  }
-
-  .black {
-    color: black;
-    font-size: 15px;
-  }
-
-  .company {
-    color: #0399ff;
-  }
-
-  .profile-image {
-    margin-top: 0px;
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    border: 3px solid white;
-    transition: all .5s;
-  }
-
-  .tag {
-    color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-    padding: 10px;
-    border-radius: 5px;
-    display: table;
-    margin: 10px auto;
-  }
-  .location {
-    color: yellow;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-  }
-  .card {
-    width: 90%;
-    margin: 15px;
-    padding: 20px 40px 40px;
-    max-width: 500px;
-    text-align: left;
-    background: #fff;
-    border-bottom: 4px solid #ccc;
-    border-radius: 6px;
-  }
-  .card:hover {
-    border-color: #0399ff;
-  }
-
-  ul.skills {
-    padding: 0;
-    text-align: center;
-  }
-
-  .skills li {
-    border-radius: 6px;
-    display: inline-block;
-    background: tomato;
-    color: white;
-    padding: 5px 10px;
-    margin: 2px;
-  }
-
-  .skills li:nth-child(odd) {
-    background: #0399ff;
-  }
-
-  ul.portfolio {
-    padding: 0;
-    text-align: center;
-  }
-
-  .portfolio li {
-    border-radius: 6px;
-    background: tomato;
-    color: white;
-    padding: 5px 10px;
-    margin: 2px;
-  }
-
-  .portfolio li a {
-    color: white;
-  }
-
-  .portfolio li:nth-child(odd) {
-    background: #0399ff;
-  }
-
-  footer {
-    width: 100%;
-    min-height: 30px;
-    padding: 20px 0 40px 20px;
-  }
-
-  footer .copyright {
-    top: -8px;
-    margin: 10px auto 0 auto;
-    font-size: .75em;
-  }
-
-  footer ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  footer ul li {
-    display: inline-block;
-  }
-
-  a.social {
-    display: inline-block;
-    text-indent: -9999px;
-    margin: auto;
-    width: 30px;
-    height: 30px;
-    background-size: 30px 30px;
-    opacity: .5;
-    transition: all .25s;
-  }
-  a.twitter {
-    background-image: url(/img/twitter.svg);
-  }
-  a.linkedin {
-    background-image: url(/img/linkedin.svg);
-  }
-  a.github {
-    background-image: url(/img/github.svg);
-  }
-  a.social:hover {
-    opacity: 1;
-  }
-  .clearfix {
-    clear: both;
-  }
-
-  .blog-cards {
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+  .flex {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  /* Styles for larger screens */
-  @media screen and (min-width: 720px) {
-
-    .flex {
-        display: flex;
-        max-width: 1200px;
-        justify-content: space-around;
-        margin: 0 auto;
-    }
-
-    header {
-      min-height: 450px;
-    }
-
-    .nav {
-      max-width: 1200px;
-      color: #0399ff;
-    }
-
-    .nav .name {
-      display: block;
-      margin-right: auto;
-      color: white;
-    }
-
-    main {
-      padding-top: 50px;
-    }
-
-    main p {
-      line-height: 1.6em;
-    }
-
-    footer {
-      font-size: 1.3em;
-      max-width: 1200px;
-      margin: 40px auto;
-    }
-
-  }
-
+    max-width: 1200px;
+    justify-content: space-around;
+    margin: 0 auto; }
+  header {
+    min-height: 450px; }
+  .nav {
+    max-width: 1200px;
+    color: #0399ff; }
+  .nav .name {
+    display: block;
+    margin-right: auto;
+    color: white; }
+  main {
+    padding-top: 50px; }
+  main p {
+    line-height: 1.6em; }
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto; } }

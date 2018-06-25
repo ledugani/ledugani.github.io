@@ -1,0 +1,60 @@
+@import './components/header';
+@import './components/portfolio';
+@import './components/cards';
+@import './components/footer';
+@import './components/nav';
+
+* {
+  box-sizing: border-box;
+  font-family: Oswald, Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #222;
+  background: #f7f5f0;
+}
+
+/* Styles for larger screens */
+
+@media screen and (min-width: 720px) {
+
+  .flex {
+      display: flex;
+      max-width: 1200px;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+
+  header {
+    min-height: 450px;
+  }
+
+  .nav {
+    max-width: 1200px;
+    color: #0399ff;
+  }
+
+  .nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+  }
+
+  main {
+    padding-top: 50px;
+  }
+
+  main p {
+    line-height: 1.6em;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+
+}

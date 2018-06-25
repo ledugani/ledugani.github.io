@@ -1,0 +1,90 @@
+/* navbar styles */
+#navbar {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+  letter-spacing: 2.5px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#nav-mobile {
+  list-style-type: none;
+}
+
+#nav-mobile:hover {
+  color: papayawhip;
+}
+
+nav li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  padding: 15px 100px;
+}
+
+li a:hover {
+  color: paleturquoise;
+}
+
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+
+.nav a {
+  transition: all .5s;
+  color: #0399ff;
+}
+
+.nav a:hover {
+  color: white
+}
+
+/* Section Styles */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+
+.nav a {
+  transition: all .5s;
+  color: tomato;
+}
+
+.nav a:hover {
+  color: white
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+
+  .nav {
+    max-width: 1200px;
+    color: #0399ff;
+  }
+
+  .nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+  }
+
+}
+

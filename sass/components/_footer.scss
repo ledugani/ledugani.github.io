@@ -1,0 +1,45 @@
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  margin: 10px auto 0 auto;
+  font-size: .75em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .5;
+  transition: all .25s;
+}
+a.twitter {
+  background-image: url(/img/twitter.svg);
+}
+a.linkedin {
+  background-image: url(/img/linkedin.svg);
+}
+a.github {
+  background-image: url(/img/github.svg);
+}
+a.social:hover {
+  opacity: 1;
+}
