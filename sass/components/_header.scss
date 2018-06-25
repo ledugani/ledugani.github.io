@@ -1,0 +1,39 @@
+header {
+  text-align: center;
+  background: url('/img/CITYSCAPE-94.png') no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+header {
+  line-height: 1.5;
+}
+
+header .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid tomato;
+  transition: all .5s;
+}
+
+header .profile-image:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+
+  .flex {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+
+  header {
+    min-height: 450px;
+  }
+}

@@ -1,0 +1,14 @@
+@import './components/header';
+@import './components/nav';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #222;
+  background: #f7f5f0;
+}
