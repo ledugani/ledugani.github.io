@@ -7,11 +7,19 @@
 }
 
 nav {
-  display: flex;
-  justify-content: space-around;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
+  overflow: hidden;
+}
+
+#navbar a {
+  display: inline;
+  text-align: center;
+  padding: 15px 100px;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
 }
 
 #nav-mobile {
@@ -26,28 +34,18 @@ nav li {
   display: inline;
 }
 
-nav li a {
-  text-decoration: none;
-  color: black;
-  padding: 15px 100px;
-}
-
-li a:hover {
-  color: paleturquoise;
-}
-
 .nav li {
   padding: 5px 10px 10px 10px;
 }
 
-.nav a {
-  transition: all .5s;
-  color: #0399ff;
-}
+// .nav a {
+//   transition: all .5s;
+//   color: #0399ff;
+// }
 
-.nav a:hover {
-  color: white
-}
+// .nav a:hover {
+//   color: white
+// }
 
 /* Section Styles */
 
