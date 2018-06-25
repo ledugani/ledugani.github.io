@@ -1,14 +1,14 @@
 /* navbar styles */
 #navbar {
-  background-color: transparent;
-  background: transparent;
-  border-color: transparent;
+  background-color: palegreen;
   letter-spacing: 2.5px;
+  margin: 0;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
 }
 
 nav {
   list-style-type: none;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   overflow: hidden;
 }
@@ -38,14 +38,15 @@ nav li {
   padding: 5px 10px 10px 10px;
 }
 
-// .nav a {
-//   transition: all .5s;
-//   color: #0399ff;
-// }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-// .nav a:hover {
-//   color: white
-// }
+.sticky + .content {
+  padding-top: 60px;
+}
 
 /* Section Styles */
 

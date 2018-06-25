@@ -1,8 +1,9 @@
+/* Styles for Headers */
 header {
-  height: 300px;
+  height: 100%;
   padding-top: 50px;
   text-align: center;
-  background: url("/img/CITYSCAPE-94.png") no-repeat top center;
+  background-image: url(/img/CITYSCAPE-94.png);
   background-size: cover;
   padding-top: 60px; }
 
@@ -40,6 +41,14 @@ header .profile-image:hover {
     margin: 0 auto; }
   header {
     min-height: 450px; } }
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left; }
+  .header-right {
+    float: none; } }
 
 ul.portfolio {
   padding: 0;
@@ -139,14 +148,14 @@ a.social:hover {
 
 /* navbar styles */
 #navbar {
-  background-color: transparent;
-  background: transparent;
-  border-color: transparent;
-  letter-spacing: 2.5px; }
+  background-color: palegreen;
+  letter-spacing: 2.5px;
+  margin: 0;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); }
 
 nav {
   list-style-type: none;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   overflow: hidden; }
 
@@ -169,6 +178,14 @@ nav li {
 
 .nav li {
   padding: 5px 10px 10px 10px; }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+.sticky + .content {
+  padding-top: 60px; }
 
 /* Section Styles */
 nav {
@@ -204,7 +221,6 @@ nav {
 
 body {
   margin: 0;
-  padding-top: 250;
   text-align: center;
   color: #222;
   background: #f7f5f0; }

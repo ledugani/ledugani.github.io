@@ -1,15 +1,18 @@
 /* CSS Stuff */
-const  mn = $('.main-nav');
-const mns = 'main-nav-scrolled';
-const hdr = $('header').height();
+window.onscroll = () => {
+  myFunction();
+};
 
-$(window).scroll(() => {
-  if ($(this).scrollTop() > hdr) {
-    mn.addClass(mns);
+const navbar = document.getElementById('navbar');
+const sticky = navbar.offsetTop;
+
+const myFunction = () => {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add('sticky');
   } else {
-    mn.removeClass(mns);
+    navbar.classList.remove('sticky');
   }
-});
+};
 
 /* Print to Page */
 const printToDom = (domString, divId) => {

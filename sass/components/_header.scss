@@ -1,8 +1,10 @@
+/* Styles for Headers */
+
 header {
-  height: 300px;
+  height: 100%;
   padding-top: 50px;
   text-align: center;
-  background: url('/img/CITYSCAPE-94.png') no-repeat top center;
+  background-image: url(/img/CITYSCAPE-94.png);
   background-size: cover;
   padding-top: 60px;
 }
@@ -50,5 +52,16 @@ header .profile-image:hover {
 
   header {
     min-height: 450px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
   }
 }
