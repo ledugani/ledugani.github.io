@@ -11,10 +11,19 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding-top: 250;
   text-align: center;
   color: #222;
   background: #f7f5f0;
+}
+
+.main-nav,
+.main {
+  position: relative;
+}
+
+.main {
+  background: #f2f2e8;
 }
 
 /* Styles for larger screens */

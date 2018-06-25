@@ -1,3 +1,17 @@
+/* CSS Stuff */
+const  mn = $('.main-nav');
+const mns = 'main-nav-scrolled';
+const hdr = $('header').height();
+
+$(window).scroll(() => {
+  if ($(this).scrollTop() > hdr) {
+    mn.addClass(mns);
+  } else {
+    mn.removeClass(mns);
+  }
+});
+
+/* Print to Page */
 const printToDom = (domString, divId) => {
   document.getElementById(divId).innerHTML = domString;
 };
