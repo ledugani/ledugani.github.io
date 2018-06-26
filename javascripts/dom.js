@@ -1,4 +1,5 @@
 /* CSS Stuff */
+
 window.onscroll = () => {
   myFunction();
 };

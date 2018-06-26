@@ -14,11 +14,22 @@ body {
   text-align: center;
   color: #222;
   background: #f7f5f0;
-  font-family: Ubuntu, Arial, Helvetica, sans-serif;
+  font-family: Lato, Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3 {
-  font-family: Lato;
+.main {
+  padding: 110px 50px 50px;
+}
+
+#home {
+  background-image: url(/img/abstract-code.jpg);
+  background-size: cover;
+  margin: 0;
+  width: 100%;
+}
+
+#experience {
+  padding-top: 25px;
 }
 
 /* Styles for larger screens */
