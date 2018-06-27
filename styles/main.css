@@ -159,12 +159,10 @@ nav {
   padding: 0;
   overflow: hidden;
   display: flex;
-  justify-content: space-around;
-  height: 80px; }
+  justify-content: space-around; }
 
 #home-navbar {
-  background-color: palegreen;
-  height: 80px; }
+  background-color: palegreen; }
 
 #navbar a {
   display: inline;
@@ -219,12 +217,6 @@ body {
 
 .main {
   padding: 110px 50px 50px; }
-
-#home {
-  background-image: url(/img/abstract-code.jpg);
-  background-size: cover;
-  margin: 0;
-  width: 100%; }
 
 #experience {
   padding-top: 25px; }
