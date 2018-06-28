@@ -21,7 +21,7 @@ const myFunction = () => {
 
 /* Change Active State */
 
-// Experiment
+// Change link class on scroll and click
 $(document).ready(function () {
   $(document).on('scroll', onScroll);
 

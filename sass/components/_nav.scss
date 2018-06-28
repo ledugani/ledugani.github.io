@@ -3,6 +3,7 @@
   background-color: palegreen;
   letter-spacing: 2.5px;
   box-shadow: 0 2px 3px rgba(0,0,0,.4);
+  padding-top: 15px;
   padding-bottom: 15px;
   margin-bottom: -80px;
 }
@@ -60,7 +61,12 @@ nav li {
 
 .active {
   text-decoration-color: aliceblue;
-  background-color: #0399ff;
+  background-color: mediumaquamarine;
+}
+
+#home, #experience, #projects, #blog, #contact {
+  height: 100%;
+  width: 100%;
 }
 
 /* Styles for larger screens */

@@ -51,7 +51,7 @@ header .profile-image:hover {
     float: none; } }
 
 #portfolio-items li a {
-  color: papayawhip;
+  color: white;
   text-decoration: none; }
 
 #portfolio-items li a:hover {
@@ -63,7 +63,7 @@ ul.portfolio {
 
 .portfolio li {
   border-radius: 6px;
-  background: tomato;
+  background: palevioletred;
   color: white;
   padding: 5px 10px;
   margin: 2px; }
@@ -72,7 +72,14 @@ ul.portfolio {
   color: white; }
 
 .portfolio li:nth-child(odd) {
-  background: #0399ff; }
+  background: cadetblue; }
+
+#home {
+  margin-top: 80px;
+  background-image: url(/img/abstract-code.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
 
 .card {
   width: 90%;
@@ -85,7 +92,7 @@ ul.portfolio {
   border-radius: 6px; }
 
 .card:hover {
-  border-color: #0399ff; }
+  border-color: plum; }
 
 .card li a {
   color: #0399ff; }
@@ -106,13 +113,16 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: tomato;
+  background: palevioletred;
   color: white;
   padding: 5px 10px;
   margin: 2px; }
 
 .skills li:nth-child(odd) {
-  background: #0399ff; }
+  background: cadetblue; }
+
+.link {
+  text-decoration: none; }
 
 footer {
   width: 100%;
@@ -158,6 +168,7 @@ a.social:hover {
   background-color: palegreen;
   letter-spacing: 2.5px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+  padding-top: 15px;
   padding-bottom: 15px;
   margin-bottom: -80px; }
 
@@ -204,7 +215,11 @@ nav li {
 
 .active {
   text-decoration-color: aliceblue;
-  background-color: #0399ff; }
+  background-color: mediumaquamarine; }
+
+#home, #experience, #projects, #blog, #contact {
+  height: 100%;
+  width: 100%; }
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
