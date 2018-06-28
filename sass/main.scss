@@ -1,20 +1,29 @@
 @import './components/header';
 @import './components/portfolio';
+@import './components/sections';
 @import './components/cards';
 @import './components/footer';
 @import './components/nav';
 
 * {
   box-sizing: border-box;
-  font-family: Oswald, Arial, Helvetica, sans-serif;
 }
 
 body {
   margin: 0;
-  padding: 0;
+  // padding-top: 250;
   text-align: center;
   color: #222;
   background: #f7f5f0;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+.main {
+  padding: 110px 50px 50px;
+}
+
+#experience {
+  padding-top: 25px;
 }
 
 /* Styles for larger screens */

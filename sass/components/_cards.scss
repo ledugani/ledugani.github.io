@@ -9,7 +9,7 @@
   border-radius: 6px;
 }
 .card:hover {
-  border-color: #0399ff;
+  border-color: plum;
 }
 
 .card li a {
@@ -36,12 +36,16 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: tomato;
+  background: palevioletred;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: cadetblue;
+}
+
+.link {
+  text-decoration: none;
 }

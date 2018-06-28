@@ -1,45 +1,40 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Tom Dugan's Profile</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/styles/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-  <link rel="icon" type="image/png" href="img/favicon.tom.png">
-</head>
-  <body>
-
-    <div>
-      <nav id="navbar">
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo"></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="sass.html" class="menu-item">EXPERIENCE</a></li>
-            <li><a href="badges.html" class="menu-item">PROJECTS</a></li>
-            <li><a href="collapsible.html" class="menu-item">BLOG</a></li>
-            <li><a href="collapsible.html" class="menu-item">CONTACT</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+  <head>
+    <meta charset="utf-8">
+    <title>Tom Dugan's Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.tom.png">
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <header>
+      <h1 id="myname" class="tag name">THOMAS<br>DUGAN</h1>
       <img src="/img/prof-img.jpg" alt="it's me" class="profile-image">
-      <h1 class="tag name">Thomas Dugan</h1>
-      <h2 class="tag">Web Developer</h2>
-      <p class="tag location">Nashville, Tennessee</p>
+      <h2 id="mytitle" class="tag">Web Developer</h2>
+      <p id="mylocation" class="tag location">Nashville, Tennessee</p>
     </header>
 
-    <main id="home" class="flex">
+    <nav id="navbar" class="navbar m1 menu">
+      <div id="menu-center" class="nav-wrapper">
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#home" class="menu-item">HOME</a></li>
+          <li><a href="#experience" class="menu-item">EXPERIENCE</a></li>
+          <li><a href="#projects" class="menu-item">PROJECTS</a></li>
+          <li><a href="#blog" class="menu-item">BLOG</a></li>
+          <li><a href="#contact" class="menu-item">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main id="home" class="flex main section">
       <div class="card">
         <h2 class="card-title">Background</h2>
         <li>I’m an aspiring web designer who loves everything about the web. I've lived in Murfreesboro, Chattanooga, and currently Nashville, TN. I've worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.</li>
         <li>I’ve been a professional web developer and content creator and am a life-long learner who's always interested in expanding my skills.</li>
-        <li>In 2017 I co-founded <a href="https://aadwebb.com/">Aadwebb, Inc.</a> - a full service web development company based in Nashville.</li>
-        <ul>
-          <li>To learn more, <a href="history.html">view my resume.</a></li>
-        </ul>
+        <li>In 2017, I co-founded <a class="link" href="https://aadwebb.com/">Aadwebb, Inc.</a> - a full service web development company based in Nashville.</li>
       </div>
 
       <div class="card">
@@ -59,23 +54,26 @@
       </div>
     </main>
 
-    <div id="experience">
-      <header>
-        <img src="../img/td-toon.JPG" alt="it's me" class="profile-image">
-        <h1 class="tag name">Thomas Dugan, Junior Web Developer</h1>
-      </header>
+    <div id="experience" class="section">
+      <div class="heading">
+        <h1 class="tag name">Experience</h1>
+      </div>
 
       <main class="flex">
         <section class="card">
           <h2 class="card-title">Summary of Qualifications</h2>
-          <li>Experience as a freelance web developer</li>
-          <li>Experience writing HTML, CSS, JavaScript, PHP, and C#</li>
           <ul>
-            <li>To learn more, <a href="history.html">view my resume.</a></li>
+            <li>Experience as a Web Development Consultant, with demonstrated success supervising all aspects of site development, from initial design and structural composition to site deployment and client administration.</li>
+            <li>Experience writing HTML, CSS, JavaScript, PHP, and C#</li>
+            <li>Over 2 years’ experience creating content proven to rank websites highly on Search Engine crawls.</li>
+            <li>Demonstrated ability to complete high-end projects in deadline-oriented environments.</li>
+            <li>Affirmed proficiency successfully refurbishing websites to enhance user fulfillment and retention time, streamline navigation, and increase ad revenue and sales.</li>
+            <li>Talented graphic designer with excellent problem-solving skills.</li>
+            <li>Able to effectively communicate with wide range of clients and coworkers.</li>
           </ul>
         </section>
 
-        <section class="card">
+        <section id="portfolio-items" class="card">
           <h2>Portfolio</h2>
           <p>Here are a few examples of my work:</p>
           <ul class="portfolio">
@@ -90,7 +88,7 @@
       </main>
 
       <main class="flex">
-        <section class="card">
+        <section id="prof-history" class="card">
             <h2 id="history-title">Professional History</h2>
             <article class="job">
               <h3 class="company"><strong>Aadwebb, Inc.</strong> <span class="black"> - <em>Nashville, TN</em></span></h3>
@@ -123,17 +121,8 @@
               </ul>
             </article>
             <article class="job">
-              <h3 class="company"><strong>Jimmy John's</strong><span class="black"> - <em>Chattanooga, TN</em></span></h3>
-              <h4>February 2015 - June 2015</h4>
-              <ul>
-                <li>Helped in-store</li>
-                <li>Handled cash and credit transactions</li>
-                <li>Closed shift</li>
-              </ul>
-            </article>
-            <article class="job">
               <h3 class="company"><strong>Starbucks</strong><span class="black"> - <em>Lookout Mountain, GA</em></span></h3>
-              <h4>February 2015 - June 2015</h4>
+              <h4>October 2014 - June 2015</h4>
               <ul>
                 <li>Prepare coffee and other various drinks and food items</li>
                 <li>Handled cash and credit transactions</li>
@@ -154,29 +143,26 @@
       </main>
     </div>
 
-    <div id="projects">
-      <header>
-        <img src="/img/td-toon.JPG" alt="it's me" class="profile-image">
+    <div id="projects" class="section">
+      <div class="heading">
         <h1 class="tag name">My Projects</h1>
-      </header>
+      </div>
 
       <main id="my-projects"></main>
     </div>
 
-    <div id="blog">
-      <header>
-        <img src="/img/td-toon.JPG" alt="it me" class="profile-image">
+    <div id="blog" class="section">
+      <div class="heading">
         <h1 class="tag name">Thoughts from the Dome</h1>
-      </header>
+      </div>
 
       <main id="my-blogs" class="blog-cards"></main>
     </div>
 
-    <div id="contact">
-      <header>
-        <img src="/img/ripyouheartout.JPG" alt="it's me" class="profile-image">
+    <div id="contact" class="section">
+      <div class="heading">
         <h1 class="tag name">Get in Touch</h1>
-      </header>
+      </div>
       <div></div>
       <main class="flex">
         <div class="card">
@@ -195,14 +181,13 @@
 
     <footer>
       <ul>
-        <li><a href="https://twitter.com/@ledugani" class="social twitter">Twitter</a></li>
-        <li><a href="https://www.linkedin.com/in/thomas-dugan-52441913a/" class="social linkedin">LinkedIn</a></li>
-        <li><a href="https://github.com/ledugani" class="social github">Github</a></li>
+        <li><a href="https://twitter.com/@ledugani" class="social twitter"></a></li>
+        <li><a href="https://www.linkedin.com/in/thomas-dugan-52441913a/" class="social linkedin"></a></li>
+        <li><a href="https://github.com/ledugani" class="social github"></a></li>
       </ul>
       <p class="copyright">&copy;2018, Tom Dugan Enterprise</p>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>    <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
     <script src="dist/app.js"></script>
   </body>

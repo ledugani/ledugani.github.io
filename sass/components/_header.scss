@@ -1,8 +1,11 @@
+/* Styles for Headers */
+
 header {
+  height: 600px;
+  padding-top: 50px;
   text-align: center;
-  background: url('/img/CITYSCAPE-94.png') no-repeat top center;
+  background-image: url(/img/CITYSCAPE-94.png);
   background-size: cover;
-  overflow: hidden;
   padding-top: 60px;
 }
 
@@ -10,7 +13,18 @@ header {
   line-height: 1.5;
   letter-spacing: 1.5px;
   color: white;
+}
+
+#myname {
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+#mytitle {
+  text-shadow: 1px 1px 2px black, 0 0 25px lawngreen, 0 0 5px olivedrab;
+}
+
+#mylocation {
+  text-shadow: 1px 1px 2px black, 0 0 25px tomato, 0 0 5px maroon;
 }
 
 header .profile-image {
@@ -38,5 +52,16 @@ header .profile-image:hover {
 
   header {
     min-height: 450px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
   }
 }

@@ -1,17 +1,32 @@
 /* navbar styles */
 #navbar {
-  background-color: transparent;
-  background: transparent;
-  border-color: transparent;
+  background-color: palevioletred;
   letter-spacing: 2.5px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: -80px;
 }
 
 nav {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
   display: flex;
   justify-content: space-around;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
+}
+
+.navbar a {
+  display: inline;
+  text-align: center;
+  padding: 50px;
+  text-decoration: none;
+  font-size: 17px;
+  color: papayawhip;
+}
+
+.navbar a:hover {
+  color: papayawhip;
 }
 
 #nav-mobile {
@@ -26,50 +41,23 @@ nav li {
   display: inline;
 }
 
-li a {
-  text-decoration: none;
-  color: black;
-  padding: 15px 100px;
-}
-
-li a:hover {
-  color: paleturquoise;
-}
-
 .nav li {
   padding: 5px 10px 10px 10px;
 }
 
-.nav a {
-  transition: all .5s;
-  color: #0399ff;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-.nav a:hover {
-  color: white
+.sticky + .content {
+  padding-top: 60px;
 }
 
-/* Section Styles */
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-}
-
-.nav li {
-  padding: 5px 10px 10px 10px;
-}
-
-.nav a {
-  transition: all .5s;
-  color: tomato;
-}
-
-.nav a:hover {
-  color: white
+.active {
+  color: papayawhip;
+  background-color: paleturquoise;
 }
 
 /* Styles for larger screens */

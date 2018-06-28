@@ -1,3 +1,12 @@
+#portfolio-items li a{
+  color: white;
+  text-decoration: none;
+}
+
+#portfolio-items li a:hover {
+  color: powderblue;
+}
+
 ul.portfolio {
   padding: 0;
   text-align: center;
@@ -5,7 +14,7 @@ ul.portfolio {
 
 .portfolio li {
   border-radius: 6px;
-  background: tomato;
+  background: palevioletred;
   color: white;
   padding: 5px 10px;
   margin: 2px;
@@ -16,5 +25,5 @@ ul.portfolio {
 }
 
 .portfolio li:nth-child(odd) {
-  background: #0399ff;
+  background: cadetblue;
 }
