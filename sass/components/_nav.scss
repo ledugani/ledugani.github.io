@@ -58,6 +58,11 @@ nav li {
   padding-top: 60px;
 }
 
+.active {
+  text-decoration-color: aliceblue;
+  background-color: #0399ff;
+}
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
 

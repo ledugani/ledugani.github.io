@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
     <link rel="icon" type="image/png" href="img/favicon.tom.png">
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <header>
       <h1 id="myname" class="tag name">THOMAS<br>DUGAN</h1>
@@ -17,11 +17,8 @@
       <p id="mylocation" class="tag location">Nashville, Tennessee</p>
     </header>
 
-    <div id="home-navbar"></div>
-
-    <nav id="navbar">
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo"></a>
+    <nav id="navbar" class="navbar m1 menu">
+      <div id="menu-center" class="nav-wrapper">
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="#home" class="menu-item">HOME</a></li>
           <li><a href="#experience" class="menu-item">EXPERIENCE</a></li>
@@ -32,7 +29,7 @@
       </div>
     </nav>
 
-    <main id="home" class="flex main">
+    <main id="home" class="flex main section">
       <div class="card">
         <h2 class="card-title">Background</h2>
         <li>I’m an aspiring web designer who loves everything about the web. I've lived in Murfreesboro, Chattanooga, and currently Nashville, TN. I've worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.</li>
@@ -57,7 +54,7 @@
       </div>
     </main>
 
-    <div id="experience">
+    <div id="experience" class="section">
       <div class="heading">
         <h1 class="tag name">Thomas Dugan, Junior Web Developer</h1>
         <h2>Experience</h2>
@@ -67,17 +64,17 @@
         <section class="card">
           <h2 class="card-title">Summary of Qualifications</h2>
           <ul>
-            <li>Experience as a Web Development Consultant, with proven background successfully managing all facets of site development, from initial design and architecture to site deployment and client management.</li>
+            <li>Experience as a Web Development Consultant, with demonstrated success supervising all aspects of site development, from initial design and structural composition to site deployment and client administration.</li>
             <li>Experience writing HTML, CSS, JavaScript, PHP, and C#</li>
             <li>Over 2 years’ experience creating content proven to rank websites highly on Search Engine crawls.</li>
             <li>Demonstrated ability to complete high-end projects in deadline-oriented environments.</li>
-            <li>Adept at successfully revamping Web sites to enhance user satisfaction and retention time, streamline navigation, and increase ad revenue and sales.</li>
+            <li>Affirmed proficiency successfully refurbishing websites to enhance user fulfillment and retention time, streamline navigation, and increase ad revenue and sales.</li>
             <li>Talented graphic designer with excellent problem-solving skills.</li>
             <li>Able to effectively communicate with wide range of clients and coworkers.</li>
           </ul>
         </section>
 
-        <section class="card">
+        <section id="portfolio-items" class="card">
           <h2>Portfolio</h2>
           <p>Here are a few examples of my work:</p>
           <ul class="portfolio">
@@ -147,7 +144,7 @@
       </main>
     </div>
 
-    <div id="projects">
+    <div id="projects" class="section">
       <div class="heading">
         <h1 class="tag name">My Projects</h1>
       </div>
@@ -155,7 +152,7 @@
       <main id="my-projects"></main>
     </div>
 
-    <div id="blog">
+    <div id="blog" class="section">
       <div class="heading">
         <h1 class="tag name">Thoughts from the Dome</h1>
       </div>
@@ -163,7 +160,7 @@
       <main id="my-blogs" class="blog-cards"></main>
     </div>
 
-    <div id="contact">
+    <div id="contact" class="section">
       <div class="heading">
         <h1 class="tag name">Get in Touch</h1>
       </div>
@@ -185,14 +182,13 @@
 
     <footer>
       <ul>
-        <li><a href="https://twitter.com/@ledugani" class="social twitter">Twitter</a></li>
-        <li><a href="https://www.linkedin.com/in/thomas-dugan-52441913a/" class="social linkedin">LinkedIn</a></li>
-        <li><a href="https://github.com/ledugani" class="social github">Github</a></li>
+        <li><a href="https://twitter.com/@ledugani" class="social twitter"></a></li>
+        <li><a href="https://www.linkedin.com/in/thomas-dugan-52441913a/" class="social linkedin"></a></li>
+        <li><a href="https://github.com/ledugani" class="social github"></a></li>
       </ul>
       <p class="copyright">&copy;2018, Tom Dugan Enterprise</p>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>    <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
     <script src="dist/app.js"></script>
   </body>

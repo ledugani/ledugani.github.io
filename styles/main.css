@@ -1,6 +1,6 @@
 /* Styles for Headers */
 header {
-  height: 100%;
+  height: 600px;
   padding-top: 50px;
   text-align: center;
   background-image: url(/img/CITYSCAPE-94.png);
@@ -49,6 +49,13 @@ header .profile-image:hover {
     text-align: left; }
   .header-right {
     float: none; } }
+
+#portfolio-items li a {
+  color: papayawhip;
+  text-decoration: none; }
+
+#portfolio-items li a:hover {
+  color: powderblue; }
 
 ul.portfolio {
   padding: 0;
@@ -194,6 +201,10 @@ nav li {
 
 .sticky + .content {
   padding-top: 60px; }
+
+.active {
+  text-decoration-color: aliceblue;
+  background-color: #0399ff; }
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
