@@ -1,0 +1,12 @@
+#home {
+  margin-top: 80px;
+  background-image: url(/img/abstract-code.jpg);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+#home, #experience, #projects, #blog, #contact {
+  height: 100%;
+  width: 100%;
+}

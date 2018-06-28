@@ -1,6 +1,6 @@
 /* navbar styles */
 #navbar {
-  background-color: palegreen;
+  background-color: palevioletred;
   letter-spacing: 2.5px;
   box-shadow: 0 2px 3px rgba(0,0,0,.4);
   padding-top: 15px;
@@ -16,20 +16,16 @@ nav {
   justify-content: space-around;
 }
 
-#home-navbar {
-  background-color: palegreen;
-}
-
-#navbar a {
+.navbar a {
   display: inline;
   text-align: center;
   padding: 50px;
   text-decoration: none;
   font-size: 17px;
-  color: black;
+  color: papayawhip;
 }
 
-#navbar a:hover {
+.navbar a:hover {
   color: papayawhip;
 }
 
@@ -60,13 +56,8 @@ nav li {
 }
 
 .active {
-  text-decoration-color: aliceblue;
-  background-color: mediumaquamarine;
-}
-
-#home, #experience, #projects, #blog, #contact {
-  height: 100%;
-  width: 100%;
+  color: papayawhip;
+  background-color: paleturquoise;
 }
 
 /* Styles for larger screens */
