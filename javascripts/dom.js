@@ -70,10 +70,12 @@ const buildProjectsDomString = projectsArray => {
   let domString = '';
   projectsArray.forEach((project, index) => {
     domString += `<div class='card'>`;
-    domString += `<img src='${project.image}' alt='project screenshot' class='profile-image'>`;
-    domString += `<h2>${project.id}</h2>`;
+    domString += `<img src='${project.thumbnail}' alt='project screenshot' class='project-image'>`;
+    domString += `<h2>${project.title}</h2>`;
     domString += `<p>${project.description}</p>`;
-    domString += `<a href='${project.githubUrl}'>Click Here</a>`;
+    domString += `<p><strong>Technologies Used:</strong>${project.technologiesUsed}</p>`;
+    domString += `<a href='${project.url}'>Firebase</a>`;
+    domString += `<a href='${project.github}'>GitHub</a>`;
     domString += `</div>`;
   });
   printToDom(domString, 'my-projects');

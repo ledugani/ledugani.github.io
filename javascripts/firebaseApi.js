@@ -1,3 +1,4 @@
+/* Firebase Configuration */
 let fireBaseConfig = {};
 
 const setConfig = (fbConfig) =>
@@ -8,6 +9,8 @@ const setConfig = (fbConfig) =>
 const getConfig = () => {
   return fireBaseConfig;
 };
+
+// Get Blogs
 
 const viewAllBlogs = () => {
   return new Promise((resolve, reject) => {
@@ -31,8 +34,32 @@ const viewAllBlogs = () => {
   });
 };
 
+// Get Projects
+const viewProjects = () => {
+  return new Promise((resolve, reject) => {
+    const myProjectsArray = [];
+    $.ajax({
+      method: 'GET',
+      url: `https://personal-site-128be.firebaseio.com/projects/projects.json`,
+    })
+      .done((myProjectsObj) => {
+        if (myProjectsObj !== null) {
+          Object.keys(myProjectsObj).forEach((fbkey) => {
+            myProjectsObj[fbkey].id = fbkey;
+            myProjectsArray.push(myProjectsObj[fbkey]);
+          });
+        }
+        resolve(myProjectsArray);
+      })
+      .fail((errr) => {
+        reject(errr);
+      });
+  });
+};
+
 module.exports = {
   setConfig,
   getConfig,
   viewAllBlogs,
+  viewProjects,
 };
