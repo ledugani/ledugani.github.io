@@ -21,6 +21,14 @@ footer ul li {
   display: inline-block;
 }
 
+.social-links li a {
+  text-decoration: none;
+}
+
+.social-links li a:hover {
+  color: palevioletred;
+}
+
 a.social {
   display: inline-block;
   margin: auto;
