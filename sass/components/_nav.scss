@@ -14,6 +14,7 @@ nav {
   overflow: hidden;
   display: flex;
   justify-content: space-around;
+  z-index: 2;
 }
 
 .navbar a {
@@ -57,7 +58,7 @@ nav li {
 
 .active {
   color: papayawhip;
-  background-color: paleturquoise;
+  background-color: pink;
 }
 
 /* Styles for larger screens */

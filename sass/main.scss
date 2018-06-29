@@ -2,16 +2,18 @@
 @import './components/portfolio';
 @import './components/sections';
 @import './components/cards';
+@import './components/buttons';
 @import './components/footer';
 @import './components/nav';
 
 * {
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  // padding-top: 250;
   text-align: center;
   color: #222;
   background: #f7f5f0;
@@ -22,8 +24,10 @@ body {
   padding: 110px 50px 50px;
 }
 
-#experience {
-  padding-top: 25px;
+hr {
+  color: #ccc;
+  width: 85%;
+  margin-top: 25px;
 }
 
 /* Styles for larger screens */

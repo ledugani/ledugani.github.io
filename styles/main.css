@@ -1,18 +1,21 @@
 /* Styles for Headers */
 header {
   height: 600px;
-  padding-top: 50px;
   text-align: center;
   background-image: url(/img/CITYSCAPE-94.png);
-  background-size: cover;
-  padding-top: 60px; }
+  background-size: cover; }
 
 header {
   line-height: 1.5;
   letter-spacing: 1.5px;
   color: white; }
 
+#main-header {
+  padding-top: 150px; }
+
 #myname {
+  margin: 0;
+  padding-top: 25px;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; }
 
 #mytitle {
@@ -22,11 +25,10 @@ header {
   text-shadow: 1px 1px 2px black, 0 0 25px tomato, 0 0 5px maroon; }
 
 header .profile-image {
-  margin-top: 50px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid tomato;
+  border: 3px solid cadetblue;
   transition: all .5s; }
 
 header .profile-image:hover {
@@ -83,7 +85,35 @@ ul.portfolio {
 
 #home, #experience, #projects, #blog, #contact {
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  padding-bottom: 25px; }
+
+#experience {
+  padding-top: 25px; }
+
+#contact {
+  margin-top: 25px; }
+
+.tag {
+  padding-top: 100px;
+  margin-bottom: 0; }
+
+.project-image {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 25%;
+  border: 3px solid plum;
+  transition: all .5s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.project-header {
+  text-align: center; }
+
+.tech {
+  margin-bottom: 25px; }
 
 .card {
   width: 90%;
@@ -104,10 +134,29 @@ ul.portfolio {
 .card li a:hover {
   color: #6633ee; }
 
+.experience-card {
+  margin: 15px;
+  padding: 20px 40px 40px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px; }
+
+.experience-card:hover {
+  border-color: plum; }
+
 .blog-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.project-link {
+  padding: 0 25px; }
 
 /* Skills */
 ul.skills {
@@ -127,6 +176,35 @@ ul.skills {
 
 .link {
   text-decoration: none; }
+
+.action-button {
+  position: relative;
+  padding: 10px 40px;
+  margin: 25px 15px;
+  border-radius: 10px;
+  font-size: 25px;
+  color: #FFF;
+  text-decoration: none;
+  z-index: 1; }
+
+.animate {
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s; }
+
+.blue {
+  background-color: #3498DB;
+  border-bottom: 5px solid #2980B9;
+  text-shadow: 0px -2px #2980B9; }
+
+.red {
+  background-color: #E74C3C;
+  border-bottom: 5px solid #BD3E31;
+  text-shadow: 0px -2px #BD3E31; }
+
+.action-button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  border-bottom: 1px solid; }
 
 footer {
   width: 100%;
@@ -181,7 +259,8 @@ nav {
   padding: 0;
   overflow: hidden;
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  z-index: 2; }
 
 .navbar a {
   display: inline;
@@ -216,7 +295,7 @@ nav li {
 
 .active {
   color: papayawhip;
-  background-color: paleturquoise; }
+  background-color: pink; }
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
@@ -229,7 +308,9 @@ nav li {
     color: white; } }
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
 
 body {
   margin: 0;
@@ -241,8 +322,10 @@ body {
 .main {
   padding: 110px 50px 50px; }
 
-#experience {
-  padding-top: 25px; }
+hr {
+  color: #ccc;
+  width: 85%;
+  margin-top: 25px; }
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
