@@ -2,11 +2,9 @@
 
 header {
   height: 600px;
-  padding-top: 50px;
   text-align: center;
   background-image: url(/img/CITYSCAPE-94.png);
   background-size: cover;
-  padding-top: 60px;
 }
 
 header {
@@ -15,7 +13,13 @@ header {
   color: white;
 }
 
+#main-header {
+  padding-top: 150px;
+}
+
 #myname {
+  margin: 0;
+  padding-top: 25px;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
@@ -28,11 +32,10 @@ header {
 }
 
 header .profile-image {
-  margin-top: 50px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid tomato;
+  border: 3px solid cadetblue;
   transition: all .5s;
 }
 

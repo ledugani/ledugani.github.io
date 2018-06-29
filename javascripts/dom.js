@@ -54,12 +54,21 @@ function onScroll () {
     if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
       $('#menu-center ul li a').removeClass('active');
       currLink.addClass('active');
-    }
-    else {
+    } else {
       currLink.removeClass('active');
     }
   });
 }
+
+// $('a[href^="#"]').on('click', function (event) {
+//   const target = $(this.getAttribute('href'));
+//   if (target.length) {
+//     event.preventDefault();
+//     $('html, body').stop().animate({
+//       scrollTop: target.offset().top,
+//     }, 1000);
+//   }
+// });
 
 /* Print to Page */
 const printToDom = (domString, divId) => {
@@ -68,12 +77,14 @@ const printToDom = (domString, divId) => {
 
 const buildProjectsDomString = projectsArray => {
   let domString = '';
-  projectsArray.forEach((project, index) => {
+  projectsArray.forEach((project) => {
     domString += `<div class='card'>`;
-    domString += `<img src='${project.image}' alt='project screenshot' class='profile-image'>`;
-    domString += `<h2>${project.id}</h2>`;
-    domString += `<p>${project.description}</p>`;
-    domString += `<a href='${project.githubUrl}'>Click Here</a>`;
+    domString += `<img src='${project.thumbnail}' alt='project screenshot' class='project-image'>`;
+    domString += `<h2 class="project-header">${project.title}</h2>`;
+    domString += `<p><strong>Description:</strong>&nbsp;${project.description}</p>`;
+    domString += `<p class="tech"><strong>Technologies Used:</strong>&nbsp;${project.technologiesUsed}</p>`;
+    domString += `<a href='${project.url}' class="project-link action-button shadow animate blue">Firebase</a>`;
+    domString += `<a href='${project.github}' class="project-link action-button shadow animate red">GitHub</a>`;
     domString += `</div>`;
   });
   printToDom(domString, 'my-projects');
@@ -81,7 +92,7 @@ const buildProjectsDomString = projectsArray => {
 
 const buildBlogsDomString = blogsArray => {
   let domString = '';
-  blogsArray.forEach((blog, index) => {
+  blogsArray.forEach((blog) => {
     domString += `<div id='${blog.id}' class='card'>`;
     domString += `<h2 class='card-title'>${blog.title}</h2>`;
     domString += `<p>${blog.date}</p>`;

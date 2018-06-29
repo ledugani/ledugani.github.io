@@ -2,7 +2,7 @@
   "projects": {
     "project1": {
       "title": "Totally Project 1",
-      "thumbnail": "https://XXX.jpg",
+      "thumbnail": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
       "description": "This is a product and technical description for the project",
       "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
       "available": true,
@@ -10,8 +10,8 @@
       "github": "https://github.com/XXX"
     },
     "project2": {
-      "title": "Totally Project 1",
-      "thumbnail": "https://XXX.jpg",
+      "title": "Totally Project 2",
+      "thumbnail": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
       "description": "This is a product and technical description for the project",
       "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
       "available": true,
@@ -19,8 +19,17 @@
       "github": "https://github.com/XXX"
     },
     "project3": {
-      "title": "Totally Project 1",
-      "thumbnail": "https://XXX.jpg",
+      "title": "Totally Project 3",
+      "thumbnail": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
+      "description": "This is a product and technical description for the project",
+      "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+      "available": true,
+      "url": "https://XXX.firebaseapp.com",
+      "github": "https://github.com/XXX"
+    },
+    "project4": {
+      "title": "Totally Project 4",
+      "thumbnail": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
       "description": "This is a product and technical description for the project",
       "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
       "available": true,

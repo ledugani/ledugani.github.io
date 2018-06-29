@@ -11,10 +11,12 @@
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <header>
-      <h1 id="myname" class="tag name">THOMAS<br>DUGAN</h1>
-      <img src="/img/prof-img.jpg" alt="it's me" class="profile-image">
-      <h2 id="mytitle" class="tag">Web Developer</h2>
-      <p id="mylocation" class="tag location">Nashville, Tennessee</p>
+      <div id="main-header">
+        <h1 id="myname" class="name">THOMAS&nbsp;DUGAN</h1>
+        <img src="/img/prof-img.jpg" alt="it's me" class="profile-image">
+        <h2 id="mytitle">Web Developer</h2>
+        <p id="mylocation" class="location">Nashville, Tennessee</p>
+      </div>
     </header>
 
     <nav id="navbar" class="navbar m1 menu">
@@ -54,6 +56,8 @@
       </div>
     </main>
 
+    <hr>
+
     <div id="experience" class="section">
       <div class="heading">
         <h1 class="tag name">Experience</h1>
@@ -88,12 +92,12 @@
       </main>
 
       <main class="flex">
-        <section id="prof-history" class="card">
+        <section id="prof-history" class="experience-card">
             <h2 id="history-title">Professional History</h2>
             <article class="job">
               <h3 class="company"><strong>Aadwebb, Inc.</strong> <span class="black"> - <em>Nashville, TN</em></span></h3>
               <h4>January 2017 - present</h4>
-              <p>Chief Design Officer</p>
+              <p><em>Chief Design Officer</em></p>
               <ul>
                 <li>Design website layouts</li>
                 <li>Write original, crawlable content</li>
@@ -104,15 +108,17 @@
             <article class="job">
               <h3 class="company"><strong>EndoChoice</strong> <span class="black"> - <em>Nashville, TN</em></span></h3>
               <h4>November 2015 - January 2017</h4>
+              <p><em>Endoscopic Technician</em></p>
               <ul>
-                <p>Endoscopic Technician</p>
-                <li>Handled cash and credit transactions</li>
-                <li>Closed shift</li>
+                <li>Perform multiple minor endoscopic repairs as necessary</li>
+                <li>Implement preventative maintenance measures</li>
+                <li>Perform other maintenance duties as requested</li>
               </ul>
             </article>
             <article class="job">
               <h3 class="company"><strong>Courtyard by Marriott</strong><span class="black"> - <em>Chattanooga, TN</em></span></h3>
               <h4>June 2015 - October 2015</h4>
+              <p><em>Front Desk Clerk</em></p>
               <ul>
                 <li>Checked guests in and out</li>
                 <li>Bartend to patrons</li>
@@ -123,6 +129,7 @@
             <article class="job">
               <h3 class="company"><strong>Starbucks</strong><span class="black"> - <em>Lookout Mountain, GA</em></span></h3>
               <h4>October 2014 - June 2015</h4>
+              <p><em>Barista</em></p>
               <ul>
                 <li>Prepare coffee and other various drinks and food items</li>
                 <li>Handled cash and credit transactions</li>
@@ -132,6 +139,7 @@
             <article class="job">
               <h3 class="company"><strong>Turner Law Offices, P.C.</strong><span class="black"> - <em>Nashville, TN</em></span></h3>
               <h4>May 2013 - October 2014</h4>
+              <p><em>File Room Manager</em></p>
               <ul>
                 <li>Filed, scanned, copied, and mailed legal documents</li>
                 <li>Hand delivered legal documents</li>
@@ -143,13 +151,17 @@
       </main>
     </div>
 
+    <hr>
+
     <div id="projects" class="section">
       <div class="heading">
         <h1 class="tag name">My Projects</h1>
       </div>
 
-      <main id="my-projects"></main>
+      <main id="my-projects" class="project-cards"></main>
     </div>
+
+    <hr>
 
     <div id="blog" class="section">
       <div class="heading">
@@ -158,6 +170,8 @@
 
       <main id="my-blogs" class="blog-cards"></main>
     </div>
+
+    <hr>
 
     <div id="contact" class="section">
       <div class="heading">

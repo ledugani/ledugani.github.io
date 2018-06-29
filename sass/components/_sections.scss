@@ -1,12 +1,48 @@
+@import '../variables';
+
 #home {
   margin-top: 80px;
-  background-image: url(/img/abstract-code.jpg);
-  background-size:     cover;
-  background-repeat:   no-repeat;
-  background-position: center center;
+  // background-image: url(/img/abstract-code.jpg);
+  // background-size:     cover;
+  // background-repeat:   no-repeat;
+  // background-position: center center;
 }
 
 #home, #experience, #projects, #blog, #contact {
   height: 100%;
   width: 100%;
+  padding-bottom: 25px;
+}
+
+#experience {
+  padding-top: 25px;
+}
+
+#contact {
+  margin-top: 25px;
+}
+
+.tag {
+  padding-top: 100px;
+  margin-bottom: 0;
+}
+
+.project-image {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 25%;
+  border: 3px solid plum;
+  transition: all .5s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-header {
+  text-align: center;
+}
+
+.tech {
+  margin-bottom: 25px;
 }
