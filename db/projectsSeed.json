@@ -1,40 +1,40 @@
 {
   "projects": {
     "project1": {
-      "title": "Totally Project 1",
+      "title": "Movie Maker",
       "thumbnail": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
       "description": "This is a product and technical description for the project",
       "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
       "available": true,
       "url": "https://XXX.firebaseapp.com",
-      "github": "https://github.com/XXX"
+      "github": "https://github.com/ledugani/movie-maker"
     },
     "project2": {
-      "title": "Totally Project 2",
+      "title": "Local Weather",
       "thumbnail": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
       "description": "This is a product and technical description for the project",
       "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
       "available": true,
       "url": "https://XXX.firebaseapp.com",
-      "github": "https://github.com/XXX"
+      "github": "https://github.com/ledugani/local-weather"
     },
     "project3": {
-      "title": "Totally Project 3",
+      "title": "Clicky Planets",
       "thumbnail": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
       "description": "This is a product and technical description for the project",
       "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
       "available": true,
       "url": "https://XXX.firebaseapp.com",
-      "github": "https://github.com/XXX"
+      "github": "https://github.com/ledugani/solar-system"
     },
     "project4": {
-      "title": "Totally Project 4",
+      "title": "Treehouse Cagematch",
       "thumbnail": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
       "description": "This is a product and technical description for the project",
       "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
       "available": true,
       "url": "https://XXX.firebaseapp.com",
-      "github": "https://github.com/XXX"
+      "github": "https://github.com/ledugani/treehouse-cage-match"
     }
   }
 }
