@@ -84,7 +84,7 @@ const buildProjectsDomString = projectsArray => {
     domString += `<p><strong>Description:</strong>&nbsp;${project.description}</p>`;
     domString += `<p class="tech"><strong>Technologies Used:</strong>&nbsp;${project.technologiesUsed}</p>`;
     domString += `<a href='${project.url}' class="project-link action-button shadow animate blue">Firebase</a>`;
-    domString += `<a href='${project.github}' class="project-link action-button shadow animate red">GitHub</a>`;
+    domString += `<a href='${project.github}' class="project-link action-button shadow animate red" target="_blank">GitHub</a>`;
     domString += `</div>`;
   });
   printToDom(domString, 'my-projects');
