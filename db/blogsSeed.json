@@ -10,7 +10,7 @@
         "id": "blog2",
         "title": "JavaScript is great",
         "date": "02/23/2018",
-        "post": "This week we were introduced to the wonders of JavaScript, which makes the web interactive and responsive! I didn't think I knew much JS or understood it at all, but after the first few challenges, I was feeling confident in my abilities. We only covered the basics (variables, arrays, and calling them), but I can safely say I am ready for more challenging material over the next week or two. <br> We "
+        "post": "This week we were introduced to the wonders of JavaScript, which makes the web interactive and responsive! I didn't think I knew much JS or understood it at all, but after the first few challenges, I was feeling confident in my abilities. We only covered the basics (variables, arrays, and calling them), but I can readily say I am ready for more challenging material over the next week or two."
         },
         {
         "id": "blog3",
@@ -82,7 +82,7 @@
         "id": "blog14",
         "title": "Firebase and You",
         "date": "05/29/18",
-        "post": "This week we further expounded upon "
+        "post": "This week we further expounded upon Firebase and working with user authentication so as to allow logging in for users. We did this by continuing our code-along project, Movie History, which will allow users to login, search for movies, and add them to a wishlist or mark as watched. We also are using The Movie Database (TMDB) API so we can browse through a compiled collection of movies. This is a perfect project for me for two reasons; one being that I've made use of the iPhone notes section doing this exact thing (compiling a list of movies to watch and rate), and the second being that it perfectly exemplifies for me the interactivity that using Firebase authentication will afford developers. <br> User authentication was a lofty goal in my eyes, but after digging around in the firebase docs and learning how it works, I felt pretty good about attempting to use it. Implementation for the project was simple: allow users to see a login page on load and, if they're not logged in, they can't see anything else. Although integrating this into the site was simple enough on paper, I will say the way we went about doing so only made things more convoluted. Instead of having more than one page, we hid certain sections based on user login status. This made for more confusion and I learned a valuable lesson... Don't do that on production sites! All together, I think it wasn't as difficult a task as I had originally thought, but we'll see where it goes from here."
         }
     ]
 }
