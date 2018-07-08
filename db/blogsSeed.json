@@ -81,8 +81,14 @@
         {
         "id": "blog14",
         "title": "Firebase and You",
-        "date": "05/29/18",
+        "date": "06/05/18",
         "post": "This week we further expounded upon Firebase and working with user authentication so as to allow logging in for users. We did this by continuing our code-along project, Movie History, which will allow users to login, search for movies, and add them to a wishlist or mark as watched. We also are using The Movie Database (TMDB) API so we can browse through a compiled collection of movies. This is a perfect project for me for two reasons; one being that I've made use of the iPhone notes section doing this exact thing (compiling a list of movies to watch and rate), and the second being that it perfectly exemplifies for me the interactivity that using Firebase authentication will afford developers. <br> User authentication was a lofty goal in my eyes, but after digging around in the firebase docs and learning how it works, I felt pretty good about attempting to use it. Implementation for the project was simple: allow users to see a login page on load and, if they're not logged in, they can't see anything else. Although integrating this into the site was simple enough on paper, I will say the way we went about doing so only made things more convoluted. Instead of having more than one page, we hid certain sections based on user login status. This made for more confusion and I learned a valuable lesson... Don't do that on production sites! All together, I think it wasn't as difficult a task as I had originally thought, but we'll see where it goes from here."
+        },
+        {
+        "id": "blog15",
+        "title": "Gettin' SASSy",
+        "date": "06/12/18",
+        "post": "If SASS stands for SCSS does that mean CSS is ASS??? Thoughts like this are what populates my mind this week as we delve into SASS. It's really amazing how it works, honestly, and makes me wonder why people even use CSS any more. I enjoy the Javascript-y way you can assign variables and use them throughout a project as well as having different files for different sections of a site. Managing the files in this way has helped me tremendously with organizing the structure of my projects. Also, I should mention that I really appreciate the ability to just use CSS syntax instead of requiring one to learn an entirely new language. I'm eager to learn more about it and see what other cool features it offers."
         }
     ]
 }
