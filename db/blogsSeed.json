@@ -89,6 +89,12 @@
         "title": "Gettin' SASSy",
         "date": "06/12/18",
         "post": "If SASS stands for SCSS does that mean CSS is ASS??? Thoughts like this are what populates my mind this week as we delve into SASS. It's really amazing how it works, honestly, and makes me wonder why people even use CSS any more. I enjoy the Javascript-y way you can assign variables and use them throughout a project as well as having different files for different sections of a site. Managing the files in this way has helped me tremendously with organizing the structure of my projects. Also, I should mention that I really appreciate the ability to just use CSS syntax instead of requiring one to learn an entirely new language. I'm eager to learn more about it and see what other cool features it offers."
+        },
+        {
+        "id": "blog16",
+        "title": "React",
+        "date": "06/26/18",
+        "post": "whoa. That's really all I can say while all this settles with me. There's so much to React and I feel we've been pushed off another cliff. First, the file structure is nuts; I've never felt so lost in a project. I mean after spending some time with it, it makes sense, but it is definitely not friendly-looking at first glance. I like that we reorganized it a bit, but it's going to require a good chunk of time to familiarize myself with where everything resides. Second, the index is not the index... The html file is not where you edit the page, which is very strange. We've always done projects where the dom is printed dynamically, but not like this. Using the index.js file to display all the info to the dom seems odd to say the least. I will say that once inside that file, it becomes pretty clear where the actual html lives. Regardless all of this is giong to take some time sitting and working with. And finally, React uses some of the STRANGEST syntax I've come across. Now, that's not saying much because I've only learned a handful of languages, but it is very distinct from anything I've used before. "
         }
     ]
 }
