@@ -94,7 +94,7 @@
         "id": "blog16",
         "title": "React",
         "date": "06/26/18",
-        "post": "whoa. That's really all I can say while all this settles with me. There's so much to React and I feel we've been pushed off another cliff. First, the file structure is nuts; I've never felt so lost in a project. I mean after spending some time with it, it makes sense, but it is definitely not friendly-looking at first glance. Second, the index is not the index... And finally, STRANGEST syntax ever"
+        "post": "whoa. That's really all I can say while all this settles with me. There's so much to React and I feel we've been pushed off another cliff. First, the file structure is nuts; I've never felt so lost in a project. I mean after spending some time with it, it makes sense, but it is definitely not friendly-looking at first glance. I like that we reorganized it a bit, but it's going to require a good chunk of time to familiarize myself with where everything resides. Second, the index is not the index... The html file is not where you edit the page, which is very strange. We've always done projects where the dom is printed dynamically, but not like this. Using the index.js file to display all the info to the dom seems odd to say the least. I will say that once inside that file, it becomes pretty clear where the actual html lives. Regardless all of this is giong to take some time sitting and working with. And finally, React uses some of the STRANGEST syntax I've come across. Now, that's not saying much because I've only learned a handful of languages, but it is very distinct from anything I've used before. "
         }
     ]
 }
