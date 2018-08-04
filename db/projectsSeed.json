@@ -1,40 +1,36 @@
 {
   "projects": {
     "project1": {
+      "title": "Movie Maker",
+      "description": "Movie Maker is a SPA for producers to see if they can afford to make a movie, given the cost of each item they'd like to include.",
+      "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+      "available": true,
+      "url": "https://XXX.firebaseapp.com",
+      "github": "https://github.com/ledugani/movie-maker"
+    },
+    "project2": {
       "title": "Local Weather",
-      "thumbnail": "./img/Local-weather-screenshot.png",
       "description": "Local Weather exemplifies the use of an API and implementation of full CRUD using Firebase.",
       "technologiesUsed": "HTML, CSS, JavaScript, jQuery, AJAX and JSON, Version Control with Github",
       "available": true,
       "url": "https://XXX.firebaseapp.com",
       "github": "https://github.com/ledugani/local-weather"
     },
-    "project2": {
-      "title": "Totally Project 2",
-      "thumbnail": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
-      "description": "This is a product and technical description for the project",
-      "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
-      "available": true,
-      "url": "https://XXX.firebaseapp.com",
-      "github": "https://github.com/XXX"
-    },
     "project3": {
-      "title": "Totally Project 3",
-      "thumbnail": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
-      "description": "This is a product and technical description for the project",
-      "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+      "title": "GameSphere",
+      "description": "GameSphere is an application for keeping track of which video games you own, which game you want, and which games you've played.",
+      "technologiesUsed": "React, JSX, jQuery, AJAX and JSON, Version Control with Github",
       "available": true,
       "url": "https://XXX.firebaseapp.com",
-      "github": "https://github.com/XXX"
+      "github": "https://github.com/ledugani/front-end-capstone"
     },
     "project4": {
-      "title": "Totally Project 4",
-      "thumbnail": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
+      "title": "Treehouse Cagematch",
       "description": "This is a product and technical description for the project",
       "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
       "available": true,
       "url": "https://XXX.firebaseapp.com",
-      "github": "https://github.com/XXX"
+      "github": "https://github.com/ledugani/treehouse-cage-match"
     }
   }
 }

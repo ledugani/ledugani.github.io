@@ -10,6 +10,8 @@ const getConfig = () => {
   return fireBaseConfig;
 };
 
+// Reference Storage
+
 // Get Blogs
 
 const viewAllBlogs = () => {

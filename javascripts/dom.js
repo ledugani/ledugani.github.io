@@ -1,6 +1,6 @@
 /* eslint camelcase: 0 */
 
-/* CSS Stuff */
+// CSS Stuff
 
 /* Sticky navbar */
 
@@ -79,12 +79,12 @@ const buildProjectsDomString = projectsArray => {
   let domString = '';
   projectsArray.forEach((project) => {
     domString += `<div class='card'>`;
-    domString += `<img src='${project.thumbnail}' alt='project screenshot' class='project-image'>`;
+    // domString += `<img src='${project.thumbnail}' alt='project screenshot' class='project-image'>`;
     domString += `<h2 class="project-header">${project.title}</h2>`;
     domString += `<p><strong>Description:</strong>&nbsp;${project.description}</p>`;
     domString += `<p class="tech"><strong>Technologies Used:</strong>&nbsp;${project.technologiesUsed}</p>`;
     domString += `<a href='${project.url}' class="project-link action-button shadow animate blue">Firebase</a>`;
-    domString += `<a href='${project.github}' class="project-link action-button shadow animate red">GitHub</a>`;
+    domString += `<a href='${project.github}' class="project-link action-button shadow animate red" target="_blank">GitHub</a>`;
     domString += `</div>`;
   });
   printToDom(domString, 'my-projects');
