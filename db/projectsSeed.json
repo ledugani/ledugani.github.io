@@ -1,13 +1,13 @@
 {
   "projects": {
     "project1": {
-      "title": "Totally Project 1",
-      "thumbnail": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
-      "description": "This is a product and technical description for the project",
-      "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+      "title": "Local Weather",
+      "thumbnail": "./img/Local-weather-screenshot.png",
+      "description": "Local Weather exemplifies the use of an API and implementation of full CRUD using Firebase.",
+      "technologiesUsed": "HTML, CSS, JavaScript, jQuery, AJAX and JSON, Version Control with Github",
       "available": true,
       "url": "https://XXX.firebaseapp.com",
-      "github": "https://github.com/XXX"
+      "github": "https://github.com/ledugani/local-weather"
     },
     "project2": {
       "title": "Totally Project 2",
