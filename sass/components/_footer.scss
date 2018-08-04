@@ -21,6 +21,14 @@ footer ul li {
   display: inline-block;
 }
 
+.social-links li a {
+  text-decoration: none;
+}
+
+.social-links li a:hover {
+  color: palevioletred;
+}
+
 a.social {
   display: inline-block;
   margin: auto;
@@ -31,13 +39,13 @@ a.social {
   transition: all .25s;
 }
 a.twitter {
-  background-image: url(/img/twitter.svg);
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/personal-site-128be.appspot.com/o/twitter.svg?alt=media&token=3d19b884-0b50-404f-89b6-ecd69f5c63d2);
 }
 a.linkedin {
-  background-image: url(/img/linkedin.svg);
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/personal-site-128be.appspot.com/o/linkedin.svg?alt=media&token=66dd8ab1-8f7c-48c8-856a-a856cb60cbcf);
 }
 a.github {
-  background-image: url(/img/github.svg);
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/personal-site-128be.appspot.com/o/github.svg?alt=media&token=974ee155-484a-4a5f-9d98-109930ddf1fb);
 }
 a.social:hover {
   opacity: 1;
