@@ -1,6 +1,6 @@
 /* eslint camelcase: 0 */
 
-/* CSS Stuff */
+// CSS Stuff
 
 /* Sticky navbar */
 
@@ -79,7 +79,6 @@ const buildProjectsDomString = projectsArray => {
   let domString = '';
   projectsArray.forEach((project) => {
     domString += `<div class='card'>`;
-    domString += `<img src='${project.thumbnail}' alt='project screenshot' class='project-image'>`;
     domString += `<h2 class="project-header">${project.title}</h2>`;
     domString += `<p><strong>Description:</strong>&nbsp;${project.description}</p>`;
     domString += `<p class="tech"><strong>Technologies Used:</strong>&nbsp;${project.technologiesUsed}</p>`;
