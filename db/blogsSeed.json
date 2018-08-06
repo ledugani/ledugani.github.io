@@ -1,100 +1,98 @@
 {
-    "blogs": [
-        {
+    "blog1": {
         "id": "blog1",
         "title": "Best First Day Ever!!!",
         "date": "02/12/2018",
         "post": "Boy, these first two weeks have made my brain hurt. The first week teased me by making me think I was ahead of the game. We went over html, replicated a static page, and discussed how we should go about completing these first projects. The latter being a helpful lesson that, while we will spend a lot of time coding, 80% of the initial work will be planning. After finishing CSS on Saturday, I still felt pretty confident in my abilities, however, my naivity has swiftly come back to bite me. The second week we really hit the ground running. Learning the ins, outs, and throughs of the command line, followed promptly by the basics of using git. I had some experience with the linux command line before, so it wasn't terribly indecipherable to figure out the commands on my macbook's terminal. Learning GitHub and how it interacts with git was where I ran into trouble. Understanding how these two work in conjunction with each other was my equivalent of learning theoretically physics. Time is a straight line (the local master continues on its own path), which can branch into multiple realities (creating a branch and making changes) but can then merge back into the parallel reality (the origin master). It sounds ridiculous, but it makes sense to me. And, hey, if it makes sense to me, I can't be doing too shabby, right?"
-        },
-        {
+    },
+    "blog2": {
         "id": "blog2",
         "title": "JavaScript is great",
         "date": "02/23/2018",
         "post": "This week we were introduced to the wonders of JavaScript, which makes the web interactive and responsive! I didn't think I knew much JS or understood it at all, but after the first few challenges, I was feeling confident in my abilities. We only covered the basics (variables, arrays, and calling them), but I can readily say I am ready for more challenging material over the next week or two."
-        },
-        {
+    },
+    "blog3": {
         "id": "blog3",
         "title": "JavaScript is terrible",
         "date": "03/4/2018",
         "post": "This week, we covered iteration methods and using them to simplify code. We started off going over how everyone accomplished the challenges assigned from the previous week, which was eye opening just to see how many different ways you can accomplish a single task. Then, our instructor went over much simpler methods to use which accomplished the same tasks using a lot less code. At first, I was completely lost and confused about how any of it worked and this continued through the remainder of class. I went home feeling like I'd been pushed off the ledge into the murky depths of JS. After struggling all evening attempting to completely understand everything that had been presented, I decided to sleep on it and tackle it the next day. Praises to Treehouse and their amazingly helpful videos. I covered iteration methods and callback functions through Treehouses courses and practiced them repeatedly. It was really difficult to grasp certain concepts in the beginning, but eventually (after lots and lots of practice), I was able to move through problems utilizing JavaScript's multitude of methods and functions. More specifically, I had a really hard time conceptualizing the functionality of the forEach, map, and filter methods, which seemed counterintuitive initially. As I continued to use them, I found the more I wrote the code, the more it made sense. I will definitely remember that from here on out."
-        },
-        {
+    },
+    "blog4": {
         "id": "blog4",
         "title": "ES6!!!",
         "date": "03/13/2018",
         "post": "This week we got to learn ES6, which is apparently the industry standard for using JavaScript. It has made writing the code a whole hell of a lot easier. We now know how to assign variables using different methods for their different uses, whether it will be reassigned later or not. I've found this to be a lot more intuitive than ES5 was, and a lot less frustrating to work with. We've gone further down the rabbit hole using functions and callbacks which seems to be simultaneously confusing and exciting. I think my favorite part this week, though, was learning markdown. It was pretty much a walk in the park in comparison to the other material we've been learning, so it was nice to have a breather."
-        },
-        {
+    },
+    "blog5": {
         "id": "blog5",
         "title": "XHR is the devil",
         "date": "03/27/2018",
         "post": "So we 'learned' XHR this week. Not that I'm salty about it or anything... I just don't fully get it yet. But I'm going to. I guess I understand what it does conceptually, I just don't understand the syntax. Apparently it's okay for us to feel uncomfortable with the syntax, but it'd be nice to get it. And I really want to utilize this newfound skill to the fullest because it seems very handy. I'm glad we're starting to use 'databases' for content, though, because storing data in the js file itself has felt very silly and unnecessary. I'm thinking this might be the first step towards using databases instead of inline storage. Hopefully in the weeks to come, I'll have a better understanding of how it works. Fingers crossed. "
-        },
-        {
+    },
+    "blog6": {
         "id": "blog6",
         "title": "Bootstrap and Superheroes",
         "date": "04/03/2018",
         "post": "Bootstrap was this week's topic of discussion and it was underwhelming. Initially, we spent a lot of time walking through the documentation and answering any questions anyone had about anything. It was very slow. This was how it went for most of the class, then, when we had about an hour left, we dove into a new JavaScript concept. And it went by very quickly. I kind of got lost in all the rushing and was really done by the time it was time to leave. Bootstrap was great to learn because I already had an idea of how it worked. Knowing that people have built a framework that has worked for thousands of other developers is comforting and having access to the catalogue of documentation for it makes it even better. I think Bootstrap is a great utility for throwing up a quick website in a pinch. But it also makes it possible to create beautifully designed sites as well."
-        },
-        {
+    },
+    "blog7": {
         "id": "blog7",
         "title": "Task Runners and Broswerify",
         "date": "04/09/2018",
         "post": "This week's focus was on task runners, which apparently help programmers accomplish monotonous tasks by running them in the background. I still don't claim to fully understand everything about them, but I'll be doing more research in the next few days so I do. More specifically, though, we focused on Browserify and Grunt, two useful task runners if you like being policed by programs while you write code. Sounds fun right? Well, it's actually pretty cool because setting these two up in unison breeds an ideal file structure for collaborating with teams as well as an enhanced security mechanism. Broswerify allows us to have multiple files that all run through the same place, without the inherent vulnerabilities that are associated with a singular javascript file. It also drastically enhances productivity in regards to working with a team of developers. Instead of all working through different functions in the same file, we can have multiple files with each being dedicated to a specific task. This speeds up production time and decreases the number of conflicts that can occur. All in all, I think I will be seeing a lot more of these in the weeks to come."
-        },
-        {
+    },
+    "blog8": {
         "id": "blog8",
         "title": "Decoding Convoluted Files and Functions",
         "date": "04/17/2018",
         "post": "After stepping up our game with task runners, this week's challenge was deciphering in-class projects in order to use the material covered in class. Mapping these files and functions has proven to be a beast in and of itself. Between untouched folders, multiple javascript files, and functions spread across files by functionality, it has been an overwhelming learning process. I've found that it no longer works to use the aforementioned review of inclass projects to get work done. Instead, I'm having to thoroughly review notes, start from square one, and move step by step through the project. Luckily, each one involves the same file structure, the only difference being the amount of javascript files and which file does what. I've definitely had to backtrack more than a few times to reevaluate what work has been done where. All in all, I think this process will become more intuitive the more I do it."
-        },
-        {
+    },
+    "blog9": {
         "id": "blog9",
         "title": "Spider-Man and Chatty Folks",
         "date": "04/24/2018",
         "post": "So this week, the instructors split us up into groups based on perceived skill level. My group was one of the three groups in our class assigned with creating the framework for a basic message board. Our team took the liberty of assigning ourselves with a Spider-Man themed message board, while maintaining the brand we were assigned - pogonophobia. Luckily this time, the file structure was already prepared for us, so the real planning aspect consisted of what functions were to be assigned to what files and who would be working with each one. This, in turn, granted us a much smoother workflow and allowed us to be more creative with the design and UX of the site. <br> Given the ease of the planning section, working with this group has proven to be a much better experience than that of the past two groups; maybe because we're all on the same 'perceived' skill level, but also maybe because we all had an idea of how the group work should go. We've been working together on group projects and individual projects and the work we're doing seems quite a bit more productive. At the end of the day, I am enjoying the way group work is becoming less monotonous and more productive."
-        },
-        {
+    },
+    "blog10": {
         "id": "blog10",
         "title": "jQuery and Its Library of Fantastic Utilities",
         "date": "05/01/18",
         "post": "So... Why have we not been using jQuery thus far?? I know, I know, we need to know the basics of JavaScript before moving up to more advanced libraries, but I am blown away by the power and simplicity of jQuery's extensive library. I definitely will be using this from here on out. But now that we've gotten to this point, I have a feeling we're going to move on very quickly. That which comes easy seems to go just as fast. That's alright, though, because I think this will make accomplishing specific tasks much easier for future assignments. <br> Shout out to John Resig for making coding 10x easier for generations to come. We'll see where we go from here. I'd like to spend some more time delving into the jQuery docs to see what awesome stuff is made easily possible through the library, but I'm willing to bet we're going to move in a new direction next week. Regardless, I will continue to research the libraries and try to find new ways to accomplish tasks with it."
-        },
-        {
+    },
+    "blog11": {
         "id": "blog11",
         "title": "Promises and How to Break Them",
         "date": "05/15/18",
         "post": "This week's topic of focus was Promises and let me just tell you I was completely lost when the instructors explained them. By the end of Tuesday, I felt like I had just taken a class in Latin. I understand the concept, but the syntax was very foreign. As far as I can tell, this basically just replaces the XHR calls we've been making in previous projects. And we only just learned how to do them in jQuery, so things seem to be moving rather quickly, which means I should probably pick up my pace. <br> I've only broken them a handful of times so far, but it looks like I'm going to be needing some practice writing them out from scratch. "
-        },
-        {
+    },
+    "blog12": {
         "id": "blog12",
         "title": "How APIs Saved Christmas",
         "date": "05/22/18",
         "post": "So I've used APIs before with WordPress before and they were not the most fun to use (they require plugins and extensive knowledge of the documentation in order to fully utilize it). Now, I realize that reading of documentation is necessary to use anything to its fullest extent, but at least using the API in your code allows you to pick and choose exactly what you need in order to display information how you want. The downfalls of just using a plugin start with the lack of control you (as a developer) have when designing the site and end with providing false information - and everything in between. Needless to say, using API's the way they were meant to be used - accessing the data with actual code - is a much more pleasant experience all around. <br> After covering all the material we need in order to utilize APIs during class, something clicked for me with the previous assignments. I found myself writing Promises and jQuery methods properly, which felt great considering my complete lack of understanding during last week's lesson. But I'm glad it has finally come to start making sense!"
-        },
-        {
+    },
+    "blog13": {
         "id": "blog13",
         "title": "Firebase and Me",
         "date": "05/29/18",
         "post": "Initially, I figured Firebase configurations would be extremely difficult, but to my surprise, they have turned out to be only very difficult! Luckily, though, our movie history app being created in class has only utilized Firebase with the plainest of JS. So it has been much more intuitive than it could have been. My only concern with Firebase is the limitations it has. After asking the instructor, she had mentioned it has a LOT of limitations (especially when only using the free version)so that means I'll need to do some research if I intend to use it for some serious applications, but I suppose I shouldn't concern myself with such lofty goals as of yet. I'm sure that, like all the previous lessons and obstacles I've tackled, understanding Firebase will come with time spent working with it. <br> All things considered, I found it really cool that Google would host such a useful utility for developers. I mean, with the project-specific databases for storage of user info, credentials, and other information, it leaves the web dev community with less backend work to worry about and allows them to focus solely on the frontend design and application. So many thanks, Google!"
-        },
-        {
+    },
+    "blog14": {
         "id": "blog14",
         "title": "Firebase and You",
         "date": "06/05/18",
         "post": "This week we further expounded upon Firebase and working with user authentication so as to allow logging in for users. We did this by continuing our code-along project, Movie History, which will allow users to login, search for movies, and add them to a wishlist or mark as watched. We also are using The Movie Database (TMDB) API so we can browse through a compiled collection of movies. This is a perfect project for me for two reasons; one being that I've made use of the iPhone notes section doing this exact thing (compiling a list of movies to watch and rate), and the second being that it perfectly exemplifies for me the interactivity that using Firebase authentication will afford developers. <br> User authentication was a lofty goal in my eyes, but after digging around in the firebase docs and learning how it works, I felt pretty good about attempting to use it. Implementation for the project was simple: allow users to see a login page on load and, if they're not logged in, they can't see anything else. Although integrating this into the site was simple enough on paper, I will say the way we went about doing so only made things more convoluted. Instead of having more than one page, we hid certain sections based on user login status. This made for more confusion and I learned a valuable lesson... Don't do that on production sites! All together, I think it wasn't as difficult a task as I had originally thought, but we'll see where it goes from here."
-        },
-        {
+    },
+    "blog15": {
         "id": "blog15",
         "title": "Gettin' SASSy",
         "date": "06/12/18",
         "post": "If SASS stands for SCSS does that mean CSS is ASS??? Thoughts like this are what populates my mind this week as we delve into SASS. It's really amazing how it works, honestly, and makes me wonder why people even use CSS any more. I enjoy the Javascript-y way you can assign variables and use them throughout a project as well as having different files for different sections of a site. Managing the files in this way has helped me tremendously with organizing the structure of my projects. Also, I should mention that I really appreciate the ability to just use CSS syntax instead of requiring one to learn an entirely new language. I'm eager to learn more about it and see what other cool features it offers."
-        },
-        {
+    },
+    "blog16": {
         "id": "blog16",
         "title": "React",
         "date": "06/26/18",
         "post": "whoa. That's really all I can say while all this settles with me. There's so much to React and I feel we've been pushed off another cliff. First, the file structure is nuts; I've never felt so lost in a project. I mean after spending some time with it, it makes sense, but it is definitely not friendly-looking at first glance. I like that we reorganized it a bit, but it's going to require a good chunk of time to familiarize myself with where everything resides. Second, the index is not the index... The html file is not where you edit the page, which is very strange. We've always done projects where the dom is printed dynamically, but not like this. Using the index.js file to display all the info to the dom seems odd to say the least. I will say that once inside that file, it becomes pretty clear where the actual html lives. Regardless all of this is giong to take some time sitting and working with. And finally, React uses some of the STRANGEST syntax I've come across. Now, that's not saying much because I've only learned a handful of languages, but it is very distinct from anything I've used before. "
-        }
-    ]
+    }
 }

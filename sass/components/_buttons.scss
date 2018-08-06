@@ -30,6 +30,14 @@
 	text-shadow: 0px -2px rgb(164, 86, 112);
 }
 
+#text-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	margin-bottom: 0;
+}
+
 .action-button:active
 {
 	transform: translate(0px,5px);
