@@ -42,7 +42,7 @@ const viewProjects = () => {
     const myProjectsArray = [];
     $.ajax({
       method: 'GET',
-      url: `https://personal-site-128be.firebaseio.com/projects/projects.json`,
+      url: `https://personal-site-128be.firebaseio.com/projects.json`,
     })
       .done((myProjectsObj) => {
         if (myProjectsObj !== null) {

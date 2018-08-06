@@ -1,36 +1,34 @@
 {
-  "projects": {
-    "project1": {
-      "title": "Movie Maker",
-      "description": "Movie Maker is a SPA for producers to see if they can afford to make a movie, given the cost of each item they'd like to include.",
-      "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
-      "available": true,
-      "url": "https://XXX.firebaseapp.com",
-      "github": "https://github.com/ledugani/movie-maker"
-    },
-    "project2": {
-      "title": "Local Weather",
-      "description": "Local Weather exemplifies the use of an API and implementation of full CRUD using Firebase.",
-      "technologiesUsed": "HTML, CSS, JavaScript, jQuery, AJAX and JSON, Version Control with Github",
-      "available": true,
-      "url": "https://XXX.firebaseapp.com",
-      "github": "https://github.com/ledugani/local-weather"
-    },
-    "project3": {
-      "title": "GameSphere",
-      "description": "GameSphere is an application for keeping track of which video games you own, which game you want, and which games you've played.",
-      "technologiesUsed": "React, JSX, jQuery, AJAX and JSON, Version Control with Github",
-      "available": true,
-      "url": "https://XXX.firebaseapp.com",
-      "github": "https://github.com/ledugani/front-end-capstone"
-    },
-    "project4": {
-      "title": "Treehouse Cagematch",
-      "description": "This is a product and technical description for the project",
-      "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
-      "available": true,
-      "url": "https://XXX.firebaseapp.com",
-      "github": "https://github.com/ledugani/treehouse-cage-match"
-    }
+  "project1": {
+    "title": "Movie Maker",
+    "description": "Movie Maker is a SPA for producers to see if they can afford to make a movie, given the cost of each item they'd like to include.",
+    "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+    "available": true,
+    "url": "https://XXX.firebaseapp.com",
+    "github": "https://github.com/ledugani/movie-maker"
+  },
+  "project2": {
+    "title": "Local Weather",
+    "description": "Local Weather exemplifies the use of an API and implementation of full CRUD using Firebase.",
+    "technologiesUsed": "HTML, CSS, JavaScript, jQuery, AJAX and JSON, Version Control with Github",
+    "available": true,
+    "url": "https://XXX.firebaseapp.com",
+    "github": "https://github.com/ledugani/local-weather"
+  },
+  "project3": {
+    "title": "GameSphere",
+    "description": "GameSphere is an application for keeping track of which video games you own, which game you want, and which games you've played.",
+    "technologiesUsed": "React, JSX, jQuery, AJAX and JSON, Version Control with Github",
+    "available": true,
+    "url": "https://XXX.firebaseapp.com",
+    "github": "https://github.com/ledugani/front-end-capstone"
+  },
+  "project4": {
+    "title": "Treehouse Cagematch",
+    "description": "Enter two Treehouse users and see who has more points!",
+    "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+    "available": true,
+    "url": "https://XXX.firebaseapp.com",
+    "github": "https://github.com/ledugani/treehouse-cage-match"
   }
 }
